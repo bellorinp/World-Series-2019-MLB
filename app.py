@@ -7,6 +7,7 @@ Dashboard con estadísticas de los equipos de la serie mundial 2019 de la MLB.
 @author: BELLORINP
 """
 
+import pathlib
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -14,10 +15,14 @@ import dash_table
 import pandas as pd
 import plotly.graph_objs as go
 
+# get relative data folder
+PATH = pathlib.Path(__file__).parent
+DATA_PATH = PATH.joinpath("data").resolve()
+
 """Dataframes"""
 
 #Bateo Astros
-dfastrosbat = pd.read_csv('data/Houston Astros Batting.csv',
+dfastrosbat = pd.read_csv(DATA_PATH.joinpath('Houston Astros Batting.csv'),
                  encoding = " ISO 8859-1")
 
 dfastrosbat['BA'] = dfastrosbat['BA'].map('{:.3f}'.format)
@@ -28,7 +33,7 @@ dfastrosbat['BA1'] = dfastrosbat['BA1'].map('{:.3f}'.format)
 dfastrosbat['OPS1'] = dfastrosbat['OPS1'].map('{:.3f}'.format)
 
 #Pitcheo Astros
-dfastrospitch = pd.read_csv('data/Houston Astros Pitching.csv',
+dfastrospitch = pd.read_csv(DATA_PATH.joinpath('Houston Astros Pitching.csv'),
                  encoding = " ISO 8859-1")
 
 dfastrospitch['ERA'] = dfastrospitch['ERA'].map('{:.2f}'.format)
@@ -39,7 +44,7 @@ dfastrospitch['WHIP'] = dfastrospitch['WHIP'].map('{:.3f}'.format)
 dfastrospitch['WHIP.1'] = dfastrospitch['WHIP.1'].map('{:.3f}'.format)
 
 #Bateo Nationals
-dfnatbat = pd.read_csv('data/Washington Nationals Batting.csv',
+dfnatbat = pd.read_csv(DATA_PATH.joinpath('Washington Nationals Batting.csv'),
                  encoding = " ISO 8859-1")
 
 dfnatbat['BA'] = dfnatbat['BA'].map('{:.3f}'.format)
@@ -50,7 +55,7 @@ dfnatbat['BA1'] = dfnatbat['BA1'].map('{:.3f}'.format)
 dfnatbat['OPS1'] = dfnatbat['OPS1'].map('{:.3f}'.format)
 
 #Pitcheo Nationals
-dfnatpitch = pd.read_csv('data/Washington Nationals Pitching.csv',
+dfnatpitch = pd.read_csv(DATA_PATH.joinpath('Washington Nationals Pitching.csv'),
                  encoding = " ISO 8859-1")
 
 dfnatpitch['ERA'] = dfnatpitch['ERA'].map('{:.2f}'.format)
@@ -84,15 +89,15 @@ pitchers = ['Gerrit Cole', 'Chris Devenski', 'Zack Greinke', 'Will Harris', 'Jos
             'Nacionales de Washington']
 
 #Bateo Jugador 
-dfbat = pd.read_csv('data/Playoff Batting.csv',
+dfbat = pd.read_csv(DATA_PATH.joinpath('Playoff Batting.csv'),
                  encoding = " ISO 8859-1")
 
 #Pitcheo Jugador 1
-dfpitch = pd.read_csv('data/Playoff Pitching.csv',
+dfpitch = pd.read_csv(DATA_PATH.joinpath('Playoff Pitching.csv'),
                  encoding = " ISO 8859-1")
 
 #Glosario
-dfglo = pd.read_csv('data/Glosary.csv',
+dfglo = pd.read_csv(DATA_PATH.joinpath('Glosary.csv'),
                  encoding = " ISO 8859-1")
 
 """App"""
