@@ -1048,4 +1048,4 @@ def crear_grafica_pitcher2(data_filtro1, data_filtro2):
 """Run App"""
 
 if __name__ == "__main__":
-    app.run_server(debug=False) 
+    app.run_server(debug=True) 
