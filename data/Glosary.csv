@@ -1,0 +1,30 @@
+Abreviatura,Definición
+G,Juegos Jugados
+AB,Turnos al Bate
+R,Carreras
+H,Hits 
+2B,Dobles 
+3B,Triples 
+HR,Home Run 
+RBI ,Carreras Impulsadas
+BB,"Base por Bolas o Boleto, también se usa el termino Walk "
+SO,Strikeouts (Ponches)
+BA,Batting Average (Promedio de Bateo) :  H / AB
+HBP,Hit By Pitch (Base por golpe o golpeado)
+SF,Sacrifice Fly (Fly de Sacrificio)
+OBP,On Base Percentage (Porcentaje de Embasado) : (H + BB + HBP) /  (AB + BB + HBP + SF) 
+SLG,Slugging (Total de Números de Bases / Veces al Bate):  (1B + 2B*2 + 3B*3 + HR*4) / AB
+OPS,On Base Plus Slugging (Porcentaje de Embasado + Slugging): OBP + SLG
+SB,Stolen Base (Bases Robadas)
+CS,Caught Stealing (Atrapado en Intento de Robo)
+E,Errores Cometidos
+WPA,Win Probability Added (Probabilidad de Victoria Añadida): es una medida de cuánto impacta un jugador las probabilidades de que un equipo gane un juego
+GS,Juegos Iniciados (Pitcher)
+W,"Wins (Juegos Ganados, Pitcher)"
+L,"Losses (Juegos Perdidos, Pitcher)"
+SV,"Saves (Juegos Salvados, Pitcher)"
+CG,"Complete Games (Juegos Completos, Pitcher)"
+IP,Innings Pitched (Innings Lanzados)
+ER,"Earned Runs  (Carreras Pemitidas, Pitcher)"
+ERA,Earned Runs Average (Promedio de Carreras Pemitidas):  (ER*9 ) / IP
+WHIP,Walks And Hits Per Inning Pitched (Base por Bolas y Hits Permtidos por Innings Lanzados): (BB + H) / IP
