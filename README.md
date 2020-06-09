@@ -17,6 +17,10 @@ Images: FantasyPros.com © Copyright 2010-2020, <https://www.fantasypros.com/mlb
 All logos and images are the trademark & property of their owners. We present them here for purely educational purposes.
 
 
+## Screenshots
+
+![alt text](screenshots/screenshot.png)
+
 ## Built With
 
 [Dash](https://plotly.com/dash/) - Main server and interactive components
