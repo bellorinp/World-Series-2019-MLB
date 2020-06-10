@@ -283,8 +283,8 @@ app.layout = html.Div([
                                 html.P(id="permisos-astros",
                                         children="Fuente: Baseball Reference, \
                                         https://www.baseball-reference.com/postseason/2019_WS.shtml, \
-                                        Copyright © 2000-2020 Sports Reference LLC." 
-                                        "Logos tomados de: Chris Creamer's Sports Logos Page - SportsLogos.Net, \
+                                        Copyright © 2000-2020 Sports Reference LLC. Logos tomados de: \
+                                        Chris Creamer's Sports Logos Page - SportsLogos.Net, \
                                         https://www.sportslogos.net, \
                                         Copyright ©1997-2020 Chris Creamer.\
                                         All logos are the trademark & property of their owners. \
@@ -459,8 +459,8 @@ app.layout = html.Div([
                             html.P(id="permisos-nationals",
                                     children="Fuente: Baseball Reference, \
                                     https://www.baseball-reference.com/postseason/2019_WS.shtml, \
-                                    Copyright © 2000-2020 Sports Reference LLC."  
-                                    "Logos tomados de: Chris Creamer's Sports Logos Page - SportsLogos.Net, \
+                                    Copyright © 2000-2020 Sports Reference LLC. Logos tomados de: \
+                                    Chris Creamer's Sports Logos Page - SportsLogos.Net, \
                                     https://www.sportslogos.net, \
                                     Copyright ©1997-2020 Chris Creamer.\
                                     All logos are the trademark & property of their owners. \
@@ -1053,4 +1053,4 @@ def crear_grafica_pitcher2(data_filtro1, data_filtro2):
 """Run App"""
 
 if __name__ == "__main__":
-    app.run_server(debug=True) 
+    app.run_server(debug=False) 
