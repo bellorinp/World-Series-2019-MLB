@@ -15,7 +15,7 @@ import dash_table
 import pandas as pd
 import plotly.graph_objs as go
 
-# get relative data folder
+#Data folder
 PATH = pathlib.Path(__file__).parent
 DATA_PATH = PATH.joinpath("data").resolve()
 
@@ -105,6 +105,9 @@ dfglo = pd.read_csv(DATA_PATH.joinpath('Glosary.csv'),
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+
+#Gunicorn
+server = app.server
 
 """Layaout"""
 
@@ -1053,4 +1056,4 @@ def crear_grafica_pitcher2(data_filtro1, data_filtro2):
 """Run App"""
 
 if __name__ == "__main__":
-    app.run_server(debug=False) 
+    app.run_server(debug=True) 
