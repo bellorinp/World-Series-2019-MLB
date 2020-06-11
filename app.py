@@ -136,7 +136,7 @@ app.layout = html.Div([
                     children=[          
                     
                 #Tab Astros de Houston    
-                dcc.Tab(label='Astros de Houston', className="row", children=[                           
+                dcc.Tab(label='Astros de Houston', className="one column", children=[                           
                     html.Div([html.Img(src=app.get_asset_url('Astros de Houston.jpg'),
                                        style={'height':'8%', 
                                                'width':'8%', 
@@ -298,14 +298,14 @@ app.layout = html.Div([
                                         style={'fontSize': 11},  
                                             ),   
                                                                                     
-                                ], style={'width': '100%', 
+                                ], style={'width': '98%', 
                                           'display': 'block', 
                                           'padding': '5px 5px 5px 5px'}
                                 ),
                             ]),
 
         #Tab Nacionales de Washington
-                dcc.Tab(label='Nacionales de Washington', children=[ 
+                dcc.Tab(label='Nacionales de Washington',className="one column", children=[ 
                     html.Div([html.Img(src=app.get_asset_url('Nacionales de Washington.jpg'),
                                        style={'height':'8%', 
                                                'width':'8%', 
