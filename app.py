@@ -300,7 +300,7 @@ app.layout = html.Div([
                                                                                     
                                 ], style={'width': '98%', 
                                           'display': 'block', 
-                                          'padding': '10px 5px 5px 5px'}
+                                          'padding': '10px 5px 10px 5px'}
                                 ),
                             ]),
 
@@ -477,7 +477,7 @@ app.layout = html.Div([
                                                    
                             ], style={'width': '98%', 
                                       'display': 'block',
-                                      'padding': '10px 5px 5px 5px'}
+                                      'padding': '10px 5px 10px 5px'}
                                 ),
                             ]),                                     
                                 
