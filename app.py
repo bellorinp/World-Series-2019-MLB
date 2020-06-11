@@ -809,7 +809,7 @@ app.layout = html.Div([
                                                            
                                               ),
                                                                                                
-                                ], style={'width': '98%', 
+                                ], style={'width': '100%', 
                                           'display': 'block',
                                           'padding': '5px 5px 5px 5px',
                                                       }
