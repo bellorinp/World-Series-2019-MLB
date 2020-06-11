@@ -7,7 +7,10 @@ Dashboard con estadísticas de los equipos de la serie mundial 2019 de la MLB.
 @author: bellorinp
 """
 
+import os
+from random import randint
 import pathlib
+import flask
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -101,13 +104,13 @@ dfglo = pd.read_csv(DATA_PATH.joinpath('Glosary.csv'),
                  encoding = " ISO 8859-1")
 
 """App"""
+#Server
+server = flask.Flask(__name__)
+server.secret_key = os.environ.get('secret_key', str(randint(0, 1000000)))
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
-#Gunicorn
-server = app.server
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, server=server)
 
 """Layaout"""
 
@@ -1056,4 +1059,4 @@ def crear_grafica_pitcher2(data_filtro1, data_filtro2):
 """Run App"""
 
 if __name__ == "__main__":
-    app.run_server(debug=True) 
+    app.run_server(debug=True, threaded=True) 
