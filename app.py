@@ -119,8 +119,8 @@ app.layout = html.Div([
         html.Div(children=[
             html.H2("Estadísticas Equipos World Series 2019"), 
             html.Div(html.Img(id="logo", src=app.get_asset_url("logoWS2019.png"),
-                               style={'height':'10%', 
-                                      'width':'10%', 
+                               style={'height':'8%', 
+                                      'width':'8%', 
                                       'position':'absolute',
                                       'top': '5px',
                                       'right': '10px',
@@ -203,14 +203,15 @@ app.layout = html.Div([
                                                         'if': {'filter_query': '{Nombre} contains  "Totales y Promedios"'},
                                                         'backgroundColor': '#cd4f39',
                                                         'color': 'white',
-                                                        'fontsize': 11,
+                                                        'fontsize': 14,
                                                         'fontWeight': 'bold'},                                                            
                                                             ],
                                             ),
                                             
                                 html.P(id="leyenda-astros-bateo",
                                       children="*Bateador Zurdo."
-                                         ),
+                                      style={'fontSize': 10, 'padding': '5px 5px 5px 5px'}
+                                      ),
                                                    
                                         ], style={'width': '100%', 
                                                   'display': 'block',
@@ -281,7 +282,7 @@ app.layout = html.Div([
                                                         'if': {'filter_query': '{Nombre} contains  "Totales y Promedios"'},
                                                         'backgroundColor': '#cd4f39',
                                                         'color': 'white',
-                                                        'fontsize': 12,
+                                                        'fontsize': 14,
                                                         'fontWeight': 'bold'},                                                            
                                                         ],
                                               ), 
@@ -295,8 +296,8 @@ app.layout = html.Div([
                                         Copyright ©1997-2020 Chris Creamer.\
                                         All logos are the trademark & property of their owners. \
                                         We present them here for purely educational purposes.",
-                                        style={'fontSize': 8},  
-                                            ),   
+                                        style={'fontSize': 8, 'padding': '5px 5px 5px 5px'}  
+                                        ),   
                                                                                     
                                 ], style={'width': '98%', 
                                           'display': 'block', 
@@ -373,14 +374,15 @@ app.layout = html.Div([
                                                         'if': {'filter_query': '{Nombre} contains  "Totales y Promedios"'},
                                                         'backgroundColor': '#8b0000',
                                                         'color': 'white',
-                                                        'fontsize': 12,
+                                                        'fontsize': 14,
                                                         'fontWeight': 'bold'},                                                                                                                        
                                                             ],
                                               ),
                                             
                                         html.P(id="leyenda-nationals-bateo",
-                                                   children="*Bateador Zurdo  #Bateador Ambidiestro."
-                                                  ),
+                                                   children="*Bateador Zurdo  #Bateador Ambidiestro.",
+                                                   style={'fontSize': 10, 'padding': '5px 5px 5px 5px'}
+                                              ),
                                                    
                                             ], style={'width': '100%', 
                                                       'display': 'block',
@@ -451,7 +453,7 @@ app.layout = html.Div([
                                                              'if': {'filter_query': '{Nombre} contains  "Totales y Promedios"'},
                                                              'backgroundColor': '#8b0000',
                                                              'color': 'white',
-                                                             'fontsize': 12,
+                                                             'fontsize': 14,
                                                              'fontWeight': 'bold'},
                                                             
                                                             ],
@@ -459,8 +461,8 @@ app.layout = html.Div([
                                                 
                             html.P(id="leyenda-nationals-pitcheo",
                                                    children="*Lanzador Zurdo.",
-
-                                                  ),
+                                                   style={'fontSize': 10, 'padding': '5px 5px 5px 5px'}
+                                      ),
                                             
                             html.P(id="permisos-nationals",
                                     children="Fuente: Baseball Reference, \
@@ -472,7 +474,7 @@ app.layout = html.Div([
                                     All logos are the trademark & property of their owners. \
                                     We present them here for purely educational purposes.",
                                     
-                                    style={'fontSize': 8},  
+                                    style={'fontSize': 8,'padding': '5px 5px 5px 5px'}
                                     ),
                                                    
                             ], style={'width': '98%', 
