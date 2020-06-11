@@ -214,7 +214,7 @@ app.layout = html.Div([
                                                    
                                         ], style={'width': '100%', 
                                                   'display': 'block',
-                                                   'padding': '5px 5px 5px 5px',
+                                                   'padding': '5px 5px 5px 70px',
                                                  }
                                 ),                            
                                    
@@ -300,7 +300,7 @@ app.layout = html.Div([
                                                                                     
                                 ], style={'width': '100%', 
                                           'display': 'block', 
-                                          'padding': '5px 5px 5px 5px'}
+                                          'padding': '5px 5px 5px 70px'}
                                 ),
                             ]),
 
@@ -384,7 +384,7 @@ app.layout = html.Div([
                                                    
                                             ], style={'width': '100%', 
                                                       'display': 'block',
-                                                      'padding': '5px 5px 5px 5px',
+                                                      'padding': '5px 5px 5px 70px',
                                                       }
                                 ),                            
                                    
@@ -477,7 +477,7 @@ app.layout = html.Div([
                                                    
                             ], style={'width': '100%', 
                                       'display': 'block',
-                                      'padding': '5px 5px 5px 5px'}
+                                      'padding': '5px 5px 5px 70px'}
                                 ),
                             ]),                                     
                                 
@@ -550,7 +550,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '80px', 'width': '100px', 'maxWidth': '120px',
+                                                        'minWidth': '100px', 'width': '120px', 'maxWidth': '140px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -574,7 +574,7 @@ app.layout = html.Div([
 
                                         ], style={'width': '25%', 
                                                   'display': 'inline-block',
-                                                   'padding': '0px 5px 5px 0px'},
+                                                   'padding': '5px 5px 5px 0px'},
                                     ),
                                              
                         html.Div([          
@@ -589,7 +589,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '120px', 'width': '120px', 'maxWidth': '120px',
+                                                        'minWidth': '140px', 'width': '140px', 'maxWidth': '180px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '80px', 'width': '100px', 'maxWidth': '120px',
+                                                        'minWidth': '100px', 'width': '120px', 'maxWidth': '140px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -709,7 +709,7 @@ app.layout = html.Div([
 
                                             ], style={'width': '25%', 
                                                       'display': 'inline-block',
-                                                      'padding': '0px 5px 5px 0px'},
+                                                      'padding': '5px 5px 5px 0px'},
                                     ),
                                              
                         html.Div([          
@@ -724,7 +724,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
-                                                          'minWidth': '120px', 'width': '120px', 'maxWidth': '120px',
+                                                          'minWidth': '140px', 'width': '140px', 'maxWidth': '150px',
                                                           'fontSize': 16,
                                                           'textAlign': 'center',
                                                           },
@@ -736,7 +736,7 @@ app.layout = html.Div([
 
                                             ], style={'width': '19%', 
                                                       'display': 'inline-block',
-                                                      'padding': '0px 0px 5px 5px'},
+                                                      'padding': '5px 0px 5px 5px'},
                                         ),
                                              
                         html.Div([
