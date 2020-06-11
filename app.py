@@ -136,7 +136,7 @@ app.layout = html.Div([
                     children=[          
                     
                 #Tab Astros de Houston    
-                dcc.Tab(label='Astros de Houston', className="one column", children=[                           
+                dcc.Tab(label='Astros de Houston', children=[                           
                     html.Div([html.Img(src=app.get_asset_url('Astros de Houston.jpg'),
                                        style={'height':'8%', 
                                                'width':'8%', 
@@ -185,13 +185,13 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '15px', 'width': '30px', 'maxWidth': '80px',
-                                                        'fontSize': 12,
+                                                        'minWidth': '25px', 'width': '50px', 'maxWidth': '100px',
+                                                        'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
                                             style_header={'backgroundColor': '#191970',
                                                         'border': '2px solid #cd4f39',
-                                                        'fontSize': 14,
+                                                        'fontSize': 16,
                                                         'color': 'white'},
                                                            
                                             style_data_conditional=[
@@ -262,14 +262,14 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '15px', 'width': '30px', 'maxWidth': '80px',
-                                                        'fontSize': 12,
+                                                        'minWidth': '25px', 'width': '50px', 'maxWidth': '100px',
+                                                        'fontSize': 14,
                                                         'textAlign': 'center'},
                                                            
                                             style_header={
                                                         'backgroundColor': '#191970',
                                                         'border': '2px solid #cd4f39',
-                                                        'fontSize': 14,
+                                                        'fontSize': 16,
                                                         'color': 'white'},
                                                         
                                             style_data_conditional=[
@@ -355,13 +355,13 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '15px', 'width': '30px', 'maxWidth': '80px',
-                                                        'fontSize': 12,
+                                                        'minWidth': '25px', 'width': '50px', 'maxWidth': '100px',
+                                                        'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
                                             style_header={'backgroundColor': '#191970',
                                                         'border': '2px solid #8b0000',
-                                                        'fontSize': 14,
+                                                        'fontSize': 16,
                                                         'color': 'white'},
                                                            
                                             style_data_conditional=[
@@ -432,14 +432,14 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                            'height': 'auto', 
-                                                           'minWidth': '15px', 'width': '30x', 'maxWidth': '80px',
-                                                           'fontSize': 12,
+                                                           'minWidth': '25px', 'width': '50x', 'maxWidth': '100px',
+                                                           'fontSize': 14,
                                                            'textAlign': 'center'},
                                                            
                                             style_header={
                                                             'backgroundColor': '#191970',
                                                             'border': '2px solid #8b0000',
-                                                            'fontSize': 14,
+                                                            'fontSize': 16,
                                                             'color': 'white'},
                                                         
                                             style_data_conditional=[
@@ -550,7 +550,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '3px', 'width': '3px', 'maxWidth': '3px',
+                                                        'minWidth': '10px', 'width': '10px', 'maxWidth': '10px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -589,7 +589,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '3px', 'width': '3px', 'maxWidth': '3px',
+                                                        'minWidth': '10px', 'width': '10px', 'maxWidth': '10px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '3px', 'width': '3px', 'maxWidth': '3px',
+                                                        'minWidth': '10px', 'width': '10px', 'maxWidth': '10px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -724,7 +724,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
-                                                          'minWidth': '3px', 'width': '3px', 'maxWidth': '3px',
+                                                          'minWidth': '10px', 'width': '10px', 'maxWidth': '10px',
                                                           'fontSize': 16,
                                                           'textAlign': 'center',
                                                           },
@@ -790,12 +790,12 @@ app.layout = html.Div([
                                                            
                                     style_cell={'whiteSpace': 'normal', 
                                                 'height': 'auto',
-                                                'fontSize': 14,
+                                                'fontSize': 12,
                                                 'textAlign': 'left'},
                                                           
                                     style_header={'backgroundColor': '#191970',
                                                   'border': '2px solid #cd4f39',
-                                                  'fontSize': 16,
+                                                  'fontSize': 20,
                                                   'color': 'white'},
                                                            
                                     style_cell_conditional=[
@@ -811,7 +811,7 @@ app.layout = html.Div([
                                                                                                
                                 ], style={'width': '100%', 
                                           'display': 'block',
-                                          'padding': '5px 5px 5px 5px',
+                                          'padding': '25px 5px 5px 5px',
                                                       }
                             ),                                                                                            
                     ]),                                                                                                                       
