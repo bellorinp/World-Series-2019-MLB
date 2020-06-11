@@ -185,7 +185,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '70px', 'maxWidth': '120px',
+                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '100px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
@@ -262,7 +262,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '45px', 'width': '70px', 'maxWidth': '120px',
+                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '100px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                            
@@ -305,7 +305,7 @@ app.layout = html.Div([
                             ]),
 
         #Tab Nacionales de Washington
-                dcc.Tab(label='Nacionales de Washington',className="one column", children=[ 
+                dcc.Tab(label='Nacionales de Washington', children=[ 
                     html.Div([html.Img(src=app.get_asset_url('Nacionales de Washington.jpg'),
                                        style={'height':'8%', 
                                                'width':'8%', 
@@ -355,7 +355,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '70px', 'maxWidth': '120px',
+                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '100px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
@@ -432,7 +432,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                            'height': 'auto', 
-                                                           'minWidth': '40px', 'width': '70x', 'maxWidth': '120px',
+                                                           'minWidth': '40px', 'width': '50x', 'maxWidth': '100px',
                                                            'fontSize': 14,
                                                            'textAlign': 'center'},
                                                            
@@ -550,7 +550,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '20px', 'width': '30px', 'maxWidth': '40px',
+                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '60px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -589,7 +589,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '20px', 'width': '30px', 'maxWidth': '40px',
+                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '60px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '20px', 'width': '30px', 'maxWidth': '40px',
+                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '60px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -724,7 +724,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
-                                                          'minWidth': '20px', 'width': '30px', 'maxWidth': '40px',
+                                                          'minWidth': '40px', 'width': '50px', 'maxWidth': '60px',
                                                           'fontSize': 16,
                                                           'textAlign': 'center',
                                                           },
@@ -811,7 +811,7 @@ app.layout = html.Div([
                                                                                                
                                 ], style={'width': '100%', 
                                           'display': 'block',
-                                          'padding': '25px 5px 5px 5px',
+                                          'padding': '25px 5px 5px 25px',
                                                       }
                             ),                                                                                            
                     ]),                                                                                                                       
