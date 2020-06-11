@@ -432,7 +432,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                            'height': 'auto', 
-                                                           'minWidth': '40px', 'width': '60x', 'maxWidth': '100px',
+                                                           'minWidth': '40px', 'width': '60px', 'maxWidth': '100px',
                                                            'fontSize': 14,
                                                            'textAlign': 'center'},
                                                            
@@ -589,7 +589,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '140px', 'width': '140px', 'maxWidth': '180px',
+                                                        'minWidth': '180px', 'width': '200px', 'maxWidth': '220px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '100px', 'width': '120px', 'maxWidth': '140px',
+                                                        'minWidth': '180px', 'width': '200px', 'maxWidth': '220px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
