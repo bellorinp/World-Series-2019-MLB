@@ -185,7 +185,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '25px', 'width': '50px', 'maxWidth': '100px',
+                                                        'minWidth': '40px', 'width': '70px', 'maxWidth': '120px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
@@ -212,7 +212,7 @@ app.layout = html.Div([
                                       children="*Bateador Zurdo."
                                          ),
                                                    
-                                        ], style={'width': '98%', 
+                                        ], style={'width': '100%', 
                                                   'display': 'block',
                                                    'padding': '5px 5px 5px 5px',
                                                  }
@@ -262,7 +262,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '25px', 'width': '50px', 'maxWidth': '100px',
+                                                        'minWidth': '45px', 'width': '70px', 'maxWidth': '120px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                            
@@ -298,7 +298,7 @@ app.layout = html.Div([
                                         style={'fontSize': 11},  
                                             ),   
                                                                                     
-                                ], style={'width': '98%', 
+                                ], style={'width': '100%', 
                                           'display': 'block', 
                                           'padding': '5px 5px 5px 5px'}
                                 ),
@@ -355,7 +355,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '25px', 'width': '50px', 'maxWidth': '100px',
+                                                        'minWidth': '40px', 'width': '70px', 'maxWidth': '120px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
@@ -382,7 +382,7 @@ app.layout = html.Div([
                                                    children="*Bateador Zurdo  #Bateador Ambidiestro."
                                                   ),
                                                    
-                                            ], style={'width': '98%', 
+                                            ], style={'width': '100%', 
                                                       'display': 'block',
                                                       'padding': '5px 5px 5px 5px',
                                                       }
@@ -432,7 +432,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                            'height': 'auto', 
-                                                           'minWidth': '25px', 'width': '50x', 'maxWidth': '100px',
+                                                           'minWidth': '40px', 'width': '70x', 'maxWidth': '120px',
                                                            'fontSize': 14,
                                                            'textAlign': 'center'},
                                                            
@@ -475,7 +475,7 @@ app.layout = html.Div([
                                     style={'fontSize': 11},  
                                     ),
                                                    
-                            ], style={'width': '98%', 
+                            ], style={'width': '100%', 
                                       'display': 'block',
                                       'padding': '5px 5px 5px 5px'}
                                 ),
@@ -550,7 +550,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '10px', 'width': '10px', 'maxWidth': '10px',
+                                                        'minWidth': '20px', 'width': '30px', 'maxWidth': '40px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -589,7 +589,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '10px', 'width': '10px', 'maxWidth': '10px',
+                                                        'minWidth': '20px', 'width': '30px', 'maxWidth': '40px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '10px', 'width': '10px', 'maxWidth': '10px',
+                                                        'minWidth': '20px', 'width': '30px', 'maxWidth': '40px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -724,7 +724,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
-                                                          'minWidth': '10px', 'width': '10px', 'maxWidth': '10px',
+                                                          'minWidth': '20px', 'width': '30px', 'maxWidth': '40px',
                                                           'fontSize': 16,
                                                           'textAlign': 'center',
                                                           },
@@ -790,7 +790,7 @@ app.layout = html.Div([
                                                            
                                     style_cell={'whiteSpace': 'normal', 
                                                 'height': 'auto',
-                                                'fontSize': 12,
+                                                'fontSize': 16,
                                                 'textAlign': 'left'},
                                                           
                                     style_header={'backgroundColor': '#191970',
