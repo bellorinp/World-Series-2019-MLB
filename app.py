@@ -292,7 +292,7 @@ app.layout = html.Div([
                                         Copyright © 2000-2020 Sports Reference LLC. Logos tomados de: \
                                         Chris Creamer's Sports Logos Page - SportsLogos.Net, \
                                         https://www.sportslogos.net, \
-                                        Copyright ©1997-2020 Chris Creamer.\
+                                        Copyright ©1997-2020 Chris Creamer.<br>\
                                         All logos are the trademark & property of their owners. \
                                         We present them here for purely educational purposes.",
                                         style={'fontSize': 11},  
@@ -300,7 +300,7 @@ app.layout = html.Div([
                                                                                     
                                 ], style={'width': '100%', 
                                           'display': 'block', 
-                                          'padding': '5px 5px 5px 90px'}
+                                          'padding': '30px 5px 5px 50px'}
                                 ),
                             ]),
 
@@ -468,7 +468,7 @@ app.layout = html.Div([
                                     Copyright © 2000-2020 Sports Reference LLC. Logos tomados de: \
                                     Chris Creamer's Sports Logos Page - SportsLogos.Net, \
                                     https://www.sportslogos.net, \
-                                    Copyright ©1997-2020 Chris Creamer.\
+                                    Copyright ©1997-2020 Chris Creamer.<br>\
                                     All logos are the trademark & property of their owners. \
                                     We present them here for purely educational purposes.",
                                     
@@ -477,7 +477,7 @@ app.layout = html.Div([
                                                    
                             ], style={'width': '100%', 
                                       'display': 'block',
-                                      'padding': '5px 5px 5px 70px'}
+                                      'padding': '30px 5px 5px 50px'}
                                 ),
                             ]),                                     
                                 
@@ -589,7 +589,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '220px', 'width': '250px', 'maxWidth': '280px',
+                                                        'minWidth': '250px', 'width': '280px', 'maxWidth': '300px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '220px', 'width': '250px', 'maxWidth': '280px',
+                                                        'minWidth': '250px', 'width': '280px', 'maxWidth': '300px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
