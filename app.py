@@ -214,7 +214,7 @@ app.layout = html.Div([
                                                    
                                         ], style={'width': '100%', 
                                                   'display': 'block',
-                                                   'padding': '10px 5px 10px 5px',
+                                                   'padding': '10px 5px 10px 20px',
                                                  }
                                 ),                            
                                    
@@ -295,12 +295,12 @@ app.layout = html.Div([
                                         Copyright ©1997-2020 Chris Creamer.\
                                         All logos are the trademark & property of their owners. \
                                         We present them here for purely educational purposes.",
-                                        style={'fontSize': 11},  
+                                        style={'fontSize': 8},  
                                             ),   
                                                                                     
                                 ], style={'width': '98%', 
                                           'display': 'block', 
-                                          'padding': '10px 5px 10px 5px'}
+                                          'padding': '10px 5px 15px 20px'}
                                 ),
                             ]),
 
@@ -384,7 +384,7 @@ app.layout = html.Div([
                                                    
                                             ], style={'width': '100%', 
                                                       'display': 'block',
-                                                      'padding': '5px 5px 10px 5px',
+                                                      'padding': '5px 5px 10px 20px',
                                                       }
                                 ),                            
                                    
@@ -472,12 +472,12 @@ app.layout = html.Div([
                                     All logos are the trademark & property of their owners. \
                                     We present them here for purely educational purposes.",
                                     
-                                    style={'fontSize': 11},  
+                                    style={'fontSize': 8},  
                                     ),
                                                    
                             ], style={'width': '98%', 
                                       'display': 'block',
-                                      'padding': '10px 5px 10px 5px'}
+                                      'padding': '10px 5px 15px 20px'}
                                 ),
                             ]),                                     
                                 
@@ -761,7 +761,7 @@ app.layout = html.Div([
                                        https://www.fantasypros.com/mlb/compare/\
                                        All logos and images are the trademark & property of their owners. \
                                        We present them here for purely educational purposes.",
-                                       style={'fontSize': 11,
+                                       style={'fontSize': 8,
                                               'width': '98%', 
                                               'display': 'block',
                                               'padding': '150px 5px 5px 5px',
