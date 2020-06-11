@@ -292,15 +292,15 @@ app.layout = html.Div([
                                         Copyright © 2000-2020 Sports Reference LLC. Logos tomados de: \
                                         Chris Creamer's Sports Logos Page - SportsLogos.Net, \
                                         https://www.sportslogos.net, \
-                                        Copyright ©1997-2020 Chris Creamer.<br>\
+                                        Copyright ©1997-2020 Chris Creamer.\
                                         All logos are the trademark & property of their owners. \
                                         We present them here for purely educational purposes.",
                                         style={'fontSize': 11},  
                                             ),   
                                                                                     
-                                ], style={'width': '100%', 
+                                ], style={'width': '98%', 
                                           'display': 'block', 
-                                          'padding': '30px 5px 5px 50px'}
+                                          'padding': '50px 5px 5px 50px'}
                                 ),
                             ]),
 
@@ -468,16 +468,16 @@ app.layout = html.Div([
                                     Copyright © 2000-2020 Sports Reference LLC. Logos tomados de: \
                                     Chris Creamer's Sports Logos Page - SportsLogos.Net, \
                                     https://www.sportslogos.net, \
-                                    Copyright ©1997-2020 Chris Creamer.<br>\
+                                    Copyright ©1997-2020 Chris Creamer.\
                                     All logos are the trademark & property of their owners. \
                                     We present them here for purely educational purposes.",
                                     
                                     style={'fontSize': 11},  
                                     ),
                                                    
-                            ], style={'width': '100%', 
+                            ], style={'width': '98%', 
                                       'display': 'block',
-                                      'padding': '30px 5px 5px 50px'}
+                                      'padding': '50px 5px 5px 50px'}
                                 ),
                             ]),                                     
                                 
@@ -607,13 +607,13 @@ app.layout = html.Div([
                             html.Div([
                                 dcc.Graph(id='gráfica-scatter'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                               'width': '40%'}
+                                               'width': '45%'}
                                        ),
                                      
                             html.Div([
                                 dcc.Graph(id='gráfica-bar'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                               'width': '12%'}
+                                               'width': '15%'}
                                       ),
                                              
                                              
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '250px', 'width': '280px', 'maxWidth': '300px',
+                                                        'minWidth': '100px', 'width': '120px', 'maxWidth': '140px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -724,7 +724,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
-                                                          'minWidth': '140px', 'width': '140px', 'maxWidth': '150px',
+                                                          'minWidth': '250x', 'width': '280px', 'maxWidth': '300px',
                                                           'fontSize': 16,
                                                           'textAlign': 'center',
                                                           },
@@ -742,13 +742,13 @@ app.layout = html.Div([
                         html.Div([
                             dcc.Graph(id='gráfica-scatter2'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                             'width': '40%'}
+                                             'width': '45%'}
                                        ),
                                      
                         html.Div([
                             dcc.Graph(id='gráfica-bar2'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                             'width': '12%'}
+                                             'width': '15%'}
                                       ),                                                                               
                                              
                                  ]), 
