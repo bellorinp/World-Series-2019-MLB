@@ -185,7 +185,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '100px',
+                                                        'minWidth': '40px', 'width': '70px', 'maxWidth': '100px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
@@ -262,7 +262,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '100px',
+                                                        'minWidth': '40px', 'width': '70px', 'maxWidth': '100px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                            
@@ -355,7 +355,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '100px',
+                                                        'minWidth': '40px', 'width': '70px', 'maxWidth': '100px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
@@ -432,7 +432,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                            'height': 'auto', 
-                                                           'minWidth': '40px', 'width': '50x', 'maxWidth': '100px',
+                                                           'minWidth': '40px', 'width': '70x', 'maxWidth': '100px',
                                                            'fontSize': 14,
                                                            'textAlign': 'center'},
                                                            
@@ -550,7 +550,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '60px',
+                                                        'minWidth': '60px', 'width': '80px', 'maxWidth': '100px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -589,7 +589,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '60px',
+                                                        'minWidth': '60px', 'width': '80px', 'maxWidth': '100px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '50px', 'maxWidth': '60px',
+                                                        'minWidth': '60px', 'width': '80px', 'maxWidth': '100px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -724,7 +724,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
-                                                          'minWidth': '40px', 'width': '50px', 'maxWidth': '60px',
+                                                          'minWidth': '60px', 'width': '80px', 'maxWidth': '100px',
                                                           'fontSize': 16,
                                                           'textAlign': 'center',
                                                           },
@@ -811,7 +811,7 @@ app.layout = html.Div([
                                                                                                
                                 ], style={'width': '100%', 
                                           'display': 'block',
-                                          'padding': '25px 5px 5px 25px',
+                                          'padding': '25px 5px 5px 50px',
                                                       }
                             ),                                                                                            
                     ]),                                                                                                                       
