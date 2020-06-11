@@ -118,7 +118,7 @@ app.layout = html.Div([
         #Header
         html.Div(children=[
             html.H2("Estadísticas Equipos World Series 2019"), 
-            html.Div(html.Img(id="logo", src=app.get_asset_url("logoWs2019.png"),
+            html.Div(html.Img(id="logo", src=app.get_asset_url("logoWS2019.png"),
                                style={'height':'10%', 
                                       'width':'10%', 
                                       'position':'absolute',
@@ -212,7 +212,7 @@ app.layout = html.Div([
                                       children="*Bateador Zurdo."
                                          ),
                                                    
-                                        ], style={'width': '98%', 
+                                        ], style={'width': '100%', 
                                                   'display': 'block',
                                                    'padding': '5px 5px 5px 5px',
                                                  }
@@ -298,7 +298,7 @@ app.layout = html.Div([
                                         style={'fontSize': 11},  
                                             ),   
                                                                                     
-                                ], style={'width': '98%', 
+                                ], style={'width': '100%', 
                                           'display': 'block', 
                                           'padding': '5px 5px 5px 5px'}
                                 ),
