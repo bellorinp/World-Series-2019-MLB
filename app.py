@@ -802,7 +802,7 @@ app.layout = html.Div([
                                                     {'if': {'column_id': 'Abreviatura'},
                                                            'width': '10%'},
                                                     {'if': {'column_id': 'Definición'},
-                                                            'width': '80%'},
+                                                            'width': '90%'},
                                                      {'if': {'row_index': 'odd'},
                                                             'backgroundColor': 'rgb(248, 248, 248)'},
                                                        ],
