@@ -214,7 +214,7 @@ app.layout = html.Div([
                                                    
                                         ], style={'width': '100%', 
                                                   'display': 'block',
-                                                   'padding': '5px 5px 5px 70px',
+                                                   'padding': '5px 5px 5px 50px',
                                                  }
                                 ),                            
                                    
@@ -300,7 +300,7 @@ app.layout = html.Div([
                                                                                     
                                 ], style={'width': '98%', 
                                           'display': 'block', 
-                                          'padding': '50px 5px 5px 50px'}
+                                          'padding': '100px 5px 5px 5px'}
                                 ),
                             ]),
 
@@ -384,7 +384,7 @@ app.layout = html.Div([
                                                    
                                             ], style={'width': '100%', 
                                                       'display': 'block',
-                                                      'padding': '5px 5px 5px 70px',
+                                                      'padding': '5px 5px 5px 50px',
                                                       }
                                 ),                            
                                    
@@ -477,7 +477,7 @@ app.layout = html.Div([
                                                    
                             ], style={'width': '98%', 
                                       'display': 'block',
-                                      'padding': '50px 5px 5px 50px'}
+                                      'padding': '100px 5px 5px 5px'}
                                 ),
                             ]),                                     
                                 
@@ -607,7 +607,7 @@ app.layout = html.Div([
                             html.Div([
                                 dcc.Graph(id='gráfica-scatter'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                               'width': '45%'}
+                                               'width': '40%'}
                                        ),
                                      
                             html.Div([
@@ -742,7 +742,7 @@ app.layout = html.Div([
                         html.Div([
                             dcc.Graph(id='gráfica-scatter2'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                             'width': '45%'}
+                                             'width': '40%'}
                                        ),
                                      
                         html.Div([
