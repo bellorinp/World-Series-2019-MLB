@@ -300,7 +300,7 @@ app.layout = html.Div([
                                                                                     
                                 ], style={'width': '100%', 
                                           'display': 'block', 
-                                          'padding': '5px 5px 5px 70px'}
+                                          'padding': '5px 5px 5px 90px'}
                                 ),
                             ]),
 
@@ -589,7 +589,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '180px', 'width': '200px', 'maxWidth': '220px',
+                                                        'minWidth': '220px', 'width': '250px', 'maxWidth': '280px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '180px', 'width': '200px', 'maxWidth': '220px',
+                                                        'minWidth': '220px', 'width': '250px', 'maxWidth': '280px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
