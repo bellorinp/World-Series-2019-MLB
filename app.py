@@ -214,7 +214,7 @@ app.layout = html.Div([
                                                    
                                         ], style={'width': '100%', 
                                                   'display': 'block',
-                                                   'padding': '10px 5px 10px 20px',
+                                                   'padding': '10px 5px 15px 30px',
                                                  }
                                 ),                            
                                    
@@ -300,7 +300,7 @@ app.layout = html.Div([
                                                                                     
                                 ], style={'width': '98%', 
                                           'display': 'block', 
-                                          'padding': '10px 5px 15px 20px'}
+                                          'padding': '10px 5px 30px 30px'}
                                 ),
                             ]),
 
@@ -384,7 +384,7 @@ app.layout = html.Div([
                                                    
                                             ], style={'width': '100%', 
                                                       'display': 'block',
-                                                      'padding': '5px 5px 10px 20px',
+                                                      'padding': '10px 5px 15px 30px',
                                                       }
                                 ),                            
                                    
@@ -477,7 +477,7 @@ app.layout = html.Div([
                                                    
                             ], style={'width': '98%', 
                                       'display': 'block',
-                                      'padding': '10px 5px 15px 20px'}
+                                      'padding': '10px 5px 30px 30px'}
                                 ),
                             ]),                                     
                                 
@@ -519,7 +519,7 @@ app.layout = html.Div([
                                     style={'height':'8%',
                                             'width': '8%',
                                             'float': 'left',
-                                            'padding': '5px 5px 0px 200px'
+                                            'padding': '5px 10px 0px 200px'
                                             },
                                     )
                               ]),
@@ -529,7 +529,7 @@ app.layout = html.Div([
                                     src=[{'label': i, 'value': i} for i in bateadores],
                                     style={'height':'8%', 
                                             'width':'8%',
-                                            'padding': '5px 5px 0px 120px'
+                                            'padding': '5px 10px 0px 120px'
                                              },
                                     )
                              ]),
@@ -654,7 +654,7 @@ app.layout = html.Div([
                                             style={'height':'8%',
                                                    'width': '8%',
                                                    'float': 'left',
-                                                   'padding': '5px 5px 0px 200px'
+                                                   'padding': '5px 10px 0px 200px'
                                                 },
                                          )
                                    ]),
@@ -664,7 +664,7 @@ app.layout = html.Div([
                                             src=[{'label': i, 'value': i} for i in pitchers],
                                             style={'height':'8%', 
                                                    'width':'8%',
-                                                   'padding': '5px 5px 0px 120px'
+                                                   'padding': '5px 10px 0px 120px'
                                                },
                                         )
                                ]),
