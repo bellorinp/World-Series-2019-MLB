@@ -209,7 +209,7 @@ app.layout = html.Div([
                                             ),
                                             
                                 html.P(id="leyenda-astros-bateo",
-                                      children="*Bateador Zurdo."
+                                      children="*Bateador Zurdo.",
                                       style={'fontSize': 10, 'padding': '5px 5px 5px 5px'}
                                       ),
                                                    
