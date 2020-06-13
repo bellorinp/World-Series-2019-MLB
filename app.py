@@ -185,7 +185,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '60px', 'maxWidth': '100px',
+                                                        'minWidth': '30px', 'width': '40px', 'maxWidth': '70px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
@@ -213,7 +213,7 @@ app.layout = html.Div([
                                       style={'fontSize': 10, 'padding': '5px 5px 5px 5px'}
                                       ),
                                                    
-                                        ], style={'width': '100%', 
+                                        ], style={'width': '98%', 
                                                   'display': 'block',
                                                    'padding': '10px 5px 15px 30px',
                                                  }
@@ -263,7 +263,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '60px', 'maxWidth': '100px',
+                                                        'minWidth': '30px', 'width': '40px', 'maxWidth': '70px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                            
@@ -356,7 +356,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '40px', 'width': '60px', 'maxWidth': '100px',
+                                                        'minWidth': '30px', 'width': '40px', 'maxWidth': '70px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
@@ -384,7 +384,7 @@ app.layout = html.Div([
                                                    style={'fontSize': 10, 'padding': '5px 5px 5px 5px'}
                                               ),
                                                    
-                                            ], style={'width': '100%', 
+                                            ], style={'width': '98%', 
                                                       'display': 'block',
                                                       'padding': '10px 5px 15px 30px',
                                                       }
@@ -434,7 +434,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                            'height': 'auto', 
-                                                           'minWidth': '40px', 'width': '60px', 'maxWidth': '100px',
+                                                           'minWidth': '30px', 'width': '40px', 'maxWidth': '70px',
                                                            'fontSize': 14,
                                                            'textAlign': 'center'},
                                                            
@@ -609,13 +609,13 @@ app.layout = html.Div([
                             html.Div([
                                 dcc.Graph(id='gráfica-scatter'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                               'width': '40%'}
+                                               'width': '38%'}
                                        ),
                                      
                             html.Div([
                                 dcc.Graph(id='gráfica-bar'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                               'width': '15%'}
+                                               'width': '14%'}
                                       ),
                                              
                                              
@@ -744,13 +744,13 @@ app.layout = html.Div([
                         html.Div([
                             dcc.Graph(id='gráfica-scatter2'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                             'width': '40%'}
+                                             'width': '38%'}
                                        ),
                                      
                         html.Div([
                             dcc.Graph(id='gráfica-bar2'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                             'width': '15%'}
+                                             'width': '14%'}
                                       ),                                                                               
                                              
                                  ]), 
@@ -811,7 +811,7 @@ app.layout = html.Div([
                                                            
                                               ),
                                                                                                
-                                ], style={'width': '100%', 
+                                ], style={'width': '90%', 
                                           'display': 'block',
                                           'padding': '25px 5px 5px 30px',
                                                       }
