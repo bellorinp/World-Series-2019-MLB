@@ -808,7 +808,7 @@ app.layout = html.Div([
                                 ]), 
                          ]),
                             
-         #Tab Comparativas de Bateadores
+         #Tab Comparativas de Pitchers
             dcc.Tab(label='Comparativa de Pitchers', children=[ html.H3('Serie Playoff'),
                             
                     #Pitchers
