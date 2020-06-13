@@ -119,8 +119,8 @@ app.layout = html.Div([
         html.Div(children=[
             html.H2("Estadísticas Equipos World Series 2019"), 
             html.Div(html.Img(id="logo", src=app.get_asset_url("logoWS2019.png"),
-                               style={'height':'10%', 
-                                      'width':'10%', 
+                               style={'height':'8%', 
+                                      'width':'8%', 
                                       'position':'absolute',
                                       'top': '5px',
                                       'right': '10px',
@@ -552,7 +552,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '60px', 'width': '200px', 'maxWidth': '250px',
+                                                        'minWidth': '60px', 'width': '300px', 'maxWidth': '300px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -591,7 +591,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '250px', 'width': '280px', 'maxWidth': '300px',
+                                                        'minWidth': '250px', 'width': '300px', 'maxWidth': '300px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -609,13 +609,13 @@ app.layout = html.Div([
                             html.Div([
                                 dcc.Graph(id='gráfica-scatter'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                               'width': '38%'}
+                                               'width': '37%'}
                                        ),
                                      
                             html.Div([
                                 dcc.Graph(id='gráfica-bar'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                               'width': '14%'}
+                                               'width': '13%'}
                                       ),
                             
                             html.P(id="permisos-imagenes bateadores",
@@ -706,7 +706,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '60px', 'width': '200px', 'maxWidth': '250px',
+                                                        'minWidth': '60px', 'width': '300px', 'maxWidth': '300px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -745,7 +745,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
-                                                          'minWidth': '250x', 'width': '280px', 'maxWidth': '300px',
+                                                          'minWidth': '250x', 'width': '300px', 'maxWidth': '300px',
                                                           'fontSize': 16,
                                                           'textAlign': 'center',
                                                           },
@@ -763,13 +763,13 @@ app.layout = html.Div([
                         html.Div([
                             dcc.Graph(id='gráfica-scatter2'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                             'width': '38%'}
+                                             'width': '37%'}
                                        ),
                                      
                         html.Div([
                             dcc.Graph(id='gráfica-bar2'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                             'width': '14%'}
+                                             'width': '13%'}
                                       ),                                                                               
                                              
                                  ]), 
