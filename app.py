@@ -313,6 +313,177 @@ app.layout = html.Div([
                                               }
                                         ),
 
+                            html.H3('Estadísticas de Bateo'),
+                                dash_table.DataTable(
+                                            data=dfastrosbat.to_dict('records'),
+                                            columns=[
+                                                     {"name": ["", "Nombre"], "id": "Nombre"},
+                                                     {"name": ["Serie Playoff", "G"], "id": "G"},
+                                                     {"name": ["Serie Playoff", "AB"], "id": "AB"},
+                                                     {"name": ["Serie Playoff", "R"], "id": "R"},
+                                                     {"name": ["Serie Playoff", "H"], "id": "H"},
+                                                     {"name": ["Serie Playoff", "2B"], "id": "2B"},
+                                                     {"name": ["Serie Playoff", "3B"], "id": "3B"},
+                                                     {"name": ["Serie Playoff", "HR"], "id": "HR"},
+                                                     {"name": ["Serie Playoff", "RBI"], "id": "RBI"},
+                                                     {"name": ["Serie Playoff", "BB"], "id": "BB"},
+                                                     {"name": ["Serie Playoff", "SO"], "id": "SO"},
+                                                     {"name": ["Serie Playoff", "BA"], "id": "BA"},
+                                                     {"name": ["Serie Playoff", "OBP"], "id": "OBP"},
+                                                     {"name": ["Serie Playoff", "SLG"], "id": "SLG"},
+                                                     {"name": ["Serie Playoff", "OPS"], "id": "OPS"},
+                                                     {"name": ["Serie Playoff", "SB"], "id": "SB"},
+                                                     {"name": ["Serie Playoff", "CS"], "id": "CS"},
+                                                     {"name": ["Serie Playoff", "E"], "id": "E"},
+                                                     {"name": ["Serie Playoff", "WPA"], "id": "WPA"},
+                                                     {"name": ["Serie Regular", "G"], "id": "G1"},
+                                                     {"name": ["Serie Regular", "AB"], "id": "AB1"},
+                                                     {"name": ["Serie Regular", "R"], "id": "R1"},
+                                                     {"name": ["Serie Regular", "H"], "id": "H1"},
+                                                     {"name": ["Serie Regular", "RBI"], "id": "RBI1"},
+                                                     {"name": ["Serie Regular", "SB"], "id": "SB1"},
+                                                     {"name": ["Serie Regular", "BA"], "id": "BA1"},
+                                                     {"name": ["Serie Regular", "OPS"], "id": "OPS1"},
+                                                     ],
+                                                      
+                                            merge_duplicate_headers=True,
+                                            sort_action='native',
+                                            fixed_rows={'headers': True},
+                                             
+                                            style_table={'height': '300px', 
+                                                        'overflowY': 'auto',
+                                                        'overflowX': 'auto'},
+                                                           
+                                            style_cell={'whiteSpace': 'normal', 
+                                                        'height': 'auto', 
+                                                        'minWidth': '30px', 'width': '40px', 'maxWidth': '80px',
+                                                        'fontSize': 14,
+                                                        'textAlign': 'center'},
+                                                          
+                                            style_header={'backgroundColor': '#191970',
+                                                        'border': '2px solid #cd4f39',
+                                                        'fontSize': 16,
+                                                        'color': 'white'},
+                                                           
+                                            style_data_conditional=[
+                                                        {
+                                                        'if': {'row_index': 'odd'},
+                                                        'backgroundColor': 'rgb(248, 248, 248)'},
+                                                                    
+                                                        {
+                                                        'if': {'filter_query': '{Nombre} contains  "Totales y Promedios"'},
+                                                        'backgroundColor': '#cd4f39',
+                                                        'color': 'white',
+                                                        'fontsize': 14,
+                                                        'fontWeight': 'bold'},                                                            
+                                                            ],
+                                            ),
+                                            
+                                html.P(id="leyenda-astros-bateo",
+                                      children="*Bateador Zurdo.",
+                                      style={'fontSize': 10, 'padding': '5px 5px 5px 5px'}
+                                      ),
+                                                   
+                                        ], style={'width': '98%', 
+                                                  'display': 'block',
+                                                   'padding': '10px 5px 15px 30px',
+                                                 }
+                                ),                            
+                                   
+                               html.Div([
+                                    html.H3('Estadísticas de Pitcheo'),
+                                        dash_table.DataTable(
+                                            data=dfastrospitch.to_dict('records'),
+                                            columns=[
+                                                     {"name": ["", "Nombre"], "id": "Nombre"},
+                                                     {"name": ["Serie Playoff", "G"], "id": "G"},
+                                                     {"name": ["Serie Playoff", "GS"], "id": "GS"},
+                                                     {"name": ["Serie Playoff", "ERA"], "id": "ERA"},
+                                                     {"name": ["Serie Playoff", "W"], "id": "W"},
+                                                     {"name": ["Serie Playoff", "L"], "id": "L"},
+                                                     {"name": ["Serie Playoff", "SV"], "id": "SV"},
+                                                     {"name": ["Serie Playoff", "CG"], "id": "CG"},
+                                                     {"name": ["Serie Playoff", "IP"], "id": "IP"},
+                                                     {"name": ["Serie Playoff", "H"], "id": "H"},
+                                                     {"name": ["Serie Playoff", "R"], "id": "R"},
+                                                     {"name": ["Serie Playoff", "ER"], "id": "ER"},
+                                                     {"name": ["Serie Playoff", "BB"], "id": "BB"},
+                                                     {"name": ["Serie Playoff", "SO"], "id": "SO"},
+                                                     {"name": ["Serie Playoff", "WHIP"], "id": "WHIP"},
+                                                     {"name": ["Serie Playoff", "WPA"], "id": "WPA"},
+                                                     {"name": ["Serie Regular", "G"], "id": "G.1"},
+                                                     {"name": ["Serie Regular", "GS"], "id": "GS.1"},
+                                                     {"name": ["Serie Regular", "ERA"], "id": "ERA.1"},
+                                                     {"name": ["Serie Regular", "W"], "id": "W.1"},
+                                                     {"name": ["Serie Regular", "L"], "id": "L.1"},
+                                                     {"name": ["Serie Regular", "SV"], "id": "SV.1"},
+                                                     {"name": ["Serie Regular", "IP"], "id": "IP.1"},
+                                                     {"name": ["Serie Regular", "H"], "id": "H.1"},
+                                                     {"name": ["Serie Regular", "BB"], "id": "BB.1"},
+                                                     {"name": ["Serie Regular", "SO"], "id": "SO.1"},
+                                                     {"name": ["Serie Regular", "WHIP"], "id": "WHIP.1"},
+                                                     ],
+                                              
+                                            merge_duplicate_headers=True,
+                                            sort_action='native',
+                                            fixed_rows={'headers': True},
+                                              
+                                            style_table={'height': '400px', 
+                                                        'overflowY': 'auto',
+                                                        'overflowX': 'auto'},
+                                                           
+                                            style_cell={'whiteSpace': 'normal', 
+                                                        'height': 'auto', 
+                                                        'minWidth': '30px', 'width': '40px', 'maxWidth': '80px',
+                                                        'fontSize': 14,
+                                                        'textAlign': 'center'},
+                                                           
+                                            style_header={
+                                                        'backgroundColor': '#191970',
+                                                        'border': '2px solid #cd4f39',
+                                                        'fontSize': 16,
+                                                        'color': 'white'},
+                                                        
+                                            style_data_conditional=[
+                                                        {
+                                                        'if': {'row_index': 'odd'},
+                                                        'backgroundColor': 'rgb(248, 248, 248)'},
+                                                            
+                                                        {
+                                                        'if': {'filter_query': '{Nombre} contains  "Totales y Promedios"'},
+                                                        'backgroundColor': '#cd4f39',
+                                                        'color': 'white',
+                                                        'fontsize': 14,
+                                                        'fontWeight': 'bold'},                                                            
+                                                        ],
+                                              ), 
+
+                                html.P(id="permisos-astros",
+                                        children="Fuente: Baseball Reference, \
+                                        https://www.baseball-reference.com/postseason/2019_WS.shtml, \
+                                        Copyright © 2000-2020 Sports Reference LLC. Logos tomados de: \
+                                        Chris Creamer's Sports Logos Page - SportsLogos.Net, \
+                                        https://www.sportslogos.net, \
+                                        Copyright ©1997-2020 Chris Creamer.\
+                                        All logos are the trademark & property of their owners. \
+                                        We present them here for purely educational purposes.",
+                                        style={'fontSize': 8, 'padding': '5px 5px 5px 5px'}  
+                                        ),   
+                                                                                    
+                                ], style={'width': '98%', 
+                                          'display': 'block', 
+                                          'padding': '10px 5px 30px 30px'}
+                                ),
+                            ]),
+
+        #Tab Nacionales de Washington
+                dcc.Tab(label='Nacionales de Washington', children=[ 
+                    html.Div([html.Img(src=app.get_asset_url('Nacionales de Washington.jpg'),
+                                       style={'height':'8%', 
+                                               'width':'8%', 
+                                              }
+                                        ),
+
                             html.H3('Estadísticas de Bateo'),                       
                                 dash_table.DataTable(
                                            data=dfnatbat.to_dict('records'),
@@ -356,7 +527,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '30px', 'width': '40px', 'maxWidth': '70px',
+                                                        'minWidth': '30px', 'width': '40px', 'maxWidth': '80px',
                                                         'fontSize': 14,
                                                         'textAlign': 'center'},
                                                           
@@ -434,7 +605,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                            'height': 'auto', 
-                                                           'minWidth': '30px', 'width': '40px', 'maxWidth': '70px',
+                                                           'minWidth': '30px', 'width': '40px', 'maxWidth': '80px',
                                                            'fontSize': 14,
                                                            'textAlign': 'center'},
                                                            
@@ -483,9 +654,9 @@ app.layout = html.Div([
                                 ),
                             ]),                                     
                                 
-        #Tab Comparativas de Jugadores
-            dcc.Tab(label='Comparativa de Jugadores', children=[ html.H3('Serie Playoff'),                       
-                    #Bateadores
+        #Tab Comparativas de Bateadores
+            dcc.Tab(label='Comparativa de Bateadores', children=[ html.H3('Serie Playoff'),                       
+
                 html.Div([
                     html.Div(['Bateador 1',
                         dcc.Dropdown(
@@ -548,7 +719,7 @@ app.layout = html.Div([
                                                      {"name": "", "id": "Atributo"},
                                                      {"name": "", "id": "Valor"},
                                                      ],                                                      
-                                            style_table={'height': '250px'},
+                                            style_table={'height': '400px'},
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
@@ -587,7 +758,7 @@ app.layout = html.Div([
                                                      {"name": "", "id": "Valor"},
                                                      ],                                                      
                                              
-                                            style_table={'height': '250px'},
+                                            style_table={'height': '400px'},
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
@@ -603,7 +774,7 @@ app.layout = html.Div([
 
                                         ], style={'width': '19%', 
                                                    'display': 'inline-block',
-                                                   'padding': '0px 0px 5px 5px'},
+                                                   'padding': '5px 0px 5px 5px'},
                                         ),
                                              
                             html.Div([
@@ -617,10 +788,29 @@ app.layout = html.Div([
                                      ], style={'display': 'inline-block', 'float': 'right',
                                                'width': '14%'}
                                       ),
+                            
+                            html.P(id="permisos-imagenes bateadores",
+                            children= "Logos tomados de: Chris Creamer's Sports Logos Page - SportsLogos.Net, \
+                                       https://www.sportslogos.net, \
+                                       Copyright ©1997-2020 Chris Creamer.\
+                                       Imagenes de jugadores tomados de: FantasyPros.com © Copyright 2010-2020 \
+                                       https://www.fantasypros.com/mlb/compare/\
+                                       All logos and images are the trademark & property of their owners. \
+                                       We present them here for purely educational purposes.",
+                                       style={'fontSize': 8,
+                                              'width': '98%', 
+                                              'display': 'block',
+                                              'padding': '50px 5px 5px 5px',
+                                                     },  
+                                ),
                                              
                                              
                                 ]), 
-                              
+                         ]),
+                            
+         #Tab Comparativas de Bateadores
+            dcc.Tab(label='Comparativa de Pitchers', children=[ html.H3('Serie Playoff'),
+                            
                     #Pitchers
                     html.Div([
                          html.Div(['Pitcher 1',
@@ -631,7 +821,7 @@ app.layout = html.Div([
                                       ),
              
                                    ],style={'width': '15%', 'display': 'inline-block',
-                                            'padding': '80px 5px 5px 120px'}
+                                            'padding': '5px 5px 5px 120px'}
                                  ),
                                         
                         html.Div(['Pitcher 2',
@@ -646,7 +836,7 @@ app.layout = html.Div([
                         
                         ], style={'borderBottom': 'thin lightgrey solid',
                                   'backgroundColor': 'rgb(250, 250, 250)',
-                                   'padding': '120px 5px 5px 10px'},
+                                   'padding': '5px 5px 5px 10px'},
                                 ),
                         
                         html.Div([
@@ -683,7 +873,7 @@ app.layout = html.Div([
                                                      {"name": "", "id": "Atributo"},
                                                      {"name": "", "id": "Valor"},
                                                      ],                                                      
-                                            style_table={'height': '250px'},
+                                            style_table={'height': '400px'},
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
@@ -722,7 +912,7 @@ app.layout = html.Div([
                                                      {"name": "", "id": "Valor"},
                                                      ],                                                      
                                              
-                                            style_table={'height': '250px'},
+                                            style_table={'height': '400px'},
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
@@ -755,7 +945,7 @@ app.layout = html.Div([
                                              
                                  ]), 
                                      
-                        html.P(id="permisos-imagenes",
+                        html.P(id="permisos-imagenes pitchers",
                             children= "Logos tomados de: Chris Creamer's Sports Logos Page - SportsLogos.Net, \
                                        https://www.sportslogos.net, \
                                        Copyright ©1997-2020 Chris Creamer.\
@@ -766,7 +956,7 @@ app.layout = html.Div([
                                        style={'fontSize': 8,
                                               'width': '98%', 
                                               'display': 'block',
-                                              'padding': '150px 5px 5px 5px',
+                                              'padding': '50px 5px 5px 5px',
                                                      },  
                                 ),
                                                                        
