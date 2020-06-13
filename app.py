@@ -119,7 +119,7 @@ app.layout = html.Div([
         html.Div(children=[
             html.H2("Estadísticas Equipos World Series 2019"), 
             html.Div(html.Img(id="logo", src=app.get_asset_url("logoWS2019.png"),
-                               style={'height':'8%', 
+                               style={'height':'auto', 
                                       'width':'8%', 
                                       'position':'absolute',
                                       'top': '5px',
@@ -552,7 +552,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '60px', 'width': '300px', 'maxWidth': '300px',
+                                                        'minWidth': '60px', 'width': '350px', 'maxWidth': '350px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -591,7 +591,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '250px', 'width': '300px', 'maxWidth': '300px',
+                                                        'minWidth': '300px', 'width': '300px', 'maxWidth': '300px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center',
                                                         },
@@ -706,7 +706,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '60px', 'width': '300px', 'maxWidth': '300px',
+                                                        'minWidth': '60px', 'width': '350px', 'maxWidth': '350px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -745,7 +745,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
-                                                          'minWidth': '250x', 'width': '300px', 'maxWidth': '300px',
+                                                          'minWidth': '300px', 'width': '300px', 'maxWidth': '300px',
                                                           'fontSize': 16,
                                                           'textAlign': 'center',
                                                           },
