@@ -119,8 +119,8 @@ app.layout = html.Div([
         html.Div(children=[
             html.H2("Estadísticas Equipos World Series 2019"), 
             html.Div(html.Img(id="logo", src=app.get_asset_url("logoWS2019.png"),
-                               style={'height':'8%', 
-                                      'width':'8%', 
+                               style={'height':'10%', 
+                                      'width':'10%', 
                                       'position':'absolute',
                                       'top': '5px',
                                       'right': '10px',
@@ -495,7 +495,7 @@ app.layout = html.Div([
                                     ),
              
                             ],style={'width': '15%', 'display': 'inline-block',
-                                    'padding': '5px 5px 5px 120px'}
+                                    'padding': '5px 5px 5px 90px'}
                             ),
                                         
                     html.Div(['Bateador 2',
@@ -521,7 +521,7 @@ app.layout = html.Div([
                                     style={'height':'8%',
                                             'width': '8%',
                                             'float': 'left',
-                                            'padding': '5px 10px 0px 200px'
+                                            'padding': '5px 10px 0px 150px'
                                             },
                                     )
                               ]),
@@ -552,7 +552,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '100px', 'width': '120px', 'maxWidth': '140px',
+                                                        'minWidth': '60px', 'width': '200px', 'maxWidth': '250px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -565,9 +565,9 @@ app.layout = html.Div([
                                                      'border': '0px solid blue',
                                                      'header': 'crimson'},
                                                      {'if': {'column_id': 'Atributo'},
-                                                           'width': '25%'},
+                                                           'width': '5%'},
                                                      {'if': {'column_id': 'Valor'},
-                                                            'width': '75%'},
+                                                            'width': '95%'},
                                                      ],
                                                           
                                             style_header={'backgroundColor': 'navy',
@@ -650,7 +650,7 @@ app.layout = html.Div([
                                       ),
              
                                    ],style={'width': '15%', 'display': 'inline-block',
-                                            'padding': '5px 5px 5px 120px'}
+                                            'padding': '5px 5px 5px 90px'}
                                  ),
                                         
                         html.Div(['Pitcher 2',
@@ -675,7 +675,7 @@ app.layout = html.Div([
                                             style={'height':'8%',
                                                    'width': '8%',
                                                    'float': 'left',
-                                                   'padding': '5px 10px 0px 200px'
+                                                   'padding': '5px 10px 0px 150px'
                                                 },
                                          )
                                    ]),
@@ -706,7 +706,7 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '100px', 'width': '120px', 'maxWidth': '140px',
+                                                        'minWidth': '60px', 'width': '200px', 'maxWidth': '250px',
                                                         'fontSize': 16,
                                                         'textAlign': 'center'},
                                                           
@@ -719,9 +719,9 @@ app.layout = html.Div([
                                                      'border': '0px solid blue',
                                                      'header': 'crimson'},
                                                      {'if': {'column_id': 'Atributo'},
-                                                           'width': '25%'},
+                                                           'width': '5%'},
                                                      {'if': {'column_id': 'Valor'},
-                                                            'width': '75%'},
+                                                            'width': '95%'},
                                                      ],
                                                           
                                             style_header={'backgroundColor': 'navy',
