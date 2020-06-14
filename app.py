@@ -495,7 +495,7 @@ app.layout = html.Div([
                                     ),
              
                             ],style={'width': '15%', 'display': 'inline-block',
-                                    'padding': '5px 5px 5px 90px'}
+                                    'padding': '5px 5px 5px 50px'}
                             ),
                                         
                     html.Div(['Bateador 2',
@@ -505,7 +505,7 @@ app.layout = html.Div([
                                     value='Asdrubal Cabrera' #valor que saldrá por defecto en la app
                                     ),
                             ],style={'width': '15%', 'display': 'inline-block',
-                                    'padding': '5px 5px 5px 40px'}
+                                    'padding': '5px 5px 5px 30px'}
                             ),
 
                     ], style={
@@ -521,7 +521,7 @@ app.layout = html.Div([
                                     style={'height':'8%',
                                             'width': '8%',
                                             'float': 'left',
-                                            'padding': '5px 10px 0px 150px'
+                                            'padding': '5px 10px 0px 120px'
                                             },
                                     )
                               ]),
@@ -531,7 +531,7 @@ app.layout = html.Div([
                                     src=[{'label': i, 'value': i} for i in bateadores],
                                     style={'height':'8%', 
                                             'width':'8%',
-                                            'padding': '5px 10px 0px 120px'
+                                            'padding': '5px 10px 0px 80px'
                                              },
                                     )
                              ]),
@@ -552,8 +552,8 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '60px', 'width': '350px', 'maxWidth': '350px',
-                                                        'fontSize': 16,
+                                                        'minWidth': '70px', 'width': '250px', 'maxWidth': '250px',
+                                                        'fontSize': 18,
                                                         'textAlign': 'center'},
                                                           
                                             style_data={ 'border': '1px solid Lightblue' },
@@ -574,9 +574,9 @@ app.layout = html.Div([
                                                            'border': '1px solid navy'},                                                                                                   
                                               ), 
 
-                                        ], style={'width': '25%', 
+                                        ], style={'width': '20%', 
                                                   'display': 'inline-block',
-                                                   'padding': '5px 5px 5px 0px'},
+                                                   'padding': '5px 0px 5px 0px'},
                                     ),
                                              
                         html.Div([          
@@ -591,8 +591,8 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '300px', 'width': '300px', 'maxWidth': '300px',
-                                                        'fontSize': 16,
+                                                        'minWidth': '200px', 'width': '200px', 'maxWidth': '200px',
+                                                        'fontSize': 18,
                                                         'textAlign': 'center',
                                                         },
                                             style_data={ 'border': '1px solid Lightblue' },
@@ -601,7 +601,7 @@ app.layout = html.Div([
                                                            'border': '1px solid crimson'},
                                             ),
 
-                                        ], style={'width': '19%', 
+                                        ], style={'width': '15%', 
                                                    'display': 'inline-block',
                                                    'padding': '5px 0px 5px 5px'},
                                         ),
@@ -609,13 +609,13 @@ app.layout = html.Div([
                             html.Div([
                                 dcc.Graph(id='gráfica-scatter'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                               'width': '37%'}
+                                               'width': '40%'}
                                        ),
                                      
                             html.Div([
                                 dcc.Graph(id='gráfica-bar'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                               'width': '13%'}
+                                               'width': '15%'}
                                       ),
                             
                             html.P(id="permisos-imagenes bateadores",
@@ -650,7 +650,7 @@ app.layout = html.Div([
                                       ),
              
                                    ],style={'width': '15%', 'display': 'inline-block',
-                                            'padding': '5px 5px 5px 90px'}
+                                            'padding': '5px 5px 5px 50px'}
                                  ),
                                         
                         html.Div(['Pitcher 2',
@@ -660,7 +660,7 @@ app.layout = html.Div([
                                         value='Max Scherzer' #valor que saldrá por defecto en la app
                                        ),
                                    ],style={'width': '15%', 'display': 'inline-block',
-                                            'padding': '5px 5px 5px 40px'}
+                                            'padding': '5px 5px 5px 30px'}
                                  ),
                         
                         ], style={'borderBottom': 'thin lightgrey solid',
@@ -675,7 +675,7 @@ app.layout = html.Div([
                                             style={'height':'8%',
                                                    'width': '8%',
                                                    'float': 'left',
-                                                   'padding': '5px 10px 0px 150px'
+                                                   'padding': '5px 10px 0px 120px'
                                                 },
                                          )
                                    ]),
@@ -685,7 +685,7 @@ app.layout = html.Div([
                                             src=[{'label': i, 'value': i} for i in pitchers],
                                             style={'height':'8%', 
                                                    'width':'8%',
-                                                   'padding': '5px 10px 0px 120px'
+                                                   'padding': '5px 10px 0px 80px'
                                                },
                                         )
                                ]),
@@ -706,8 +706,8 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                         'height': 'auto', 
-                                                        'minWidth': '60px', 'width': '350px', 'maxWidth': '350px',
-                                                        'fontSize': 16,
+                                                        'minWidth': '70px', 'width': '250px', 'maxWidth': '250px',
+                                                        'fontSize': 18,
                                                         'textAlign': 'center'},
                                                           
                                             style_data={ 'border': '1px solid Lightblue' },
@@ -728,9 +728,9 @@ app.layout = html.Div([
                                                            'border': '1px solid navy'},                                                                                                   
                                               ), 
 
-                                            ], style={'width': '25%', 
+                                            ], style={'width': '20%', 
                                                       'display': 'inline-block',
-                                                      'padding': '5px 5px 5px 0px'},
+                                                      'padding': '5px 0px 5px 0px'},
                                     ),
                                              
                         html.Div([          
@@ -745,8 +745,8 @@ app.layout = html.Div([
                                                            
                                             style_cell={'whiteSpace': 'normal', 
                                                           'height': 'auto', 
-                                                          'minWidth': '300px', 'width': '300px', 'maxWidth': '300px',
-                                                          'fontSize': 16,
+                                                          'minWidth': '200px', 'width': '200px', 'maxWidth': '200px',
+                                                          'fontSize': 18,
                                                           'textAlign': 'center',
                                                           },
                                             style_data={ 'border': '1px solid Lightblue' },
@@ -755,7 +755,7 @@ app.layout = html.Div([
                                                            'border': '1px solid crimson'},
                                             ),
 
-                                            ], style={'width': '19%', 
+                                            ], style={'width': '15%', 
                                                       'display': 'inline-block',
                                                       'padding': '5px 0px 5px 5px'},
                                         ),
@@ -763,13 +763,13 @@ app.layout = html.Div([
                         html.Div([
                             dcc.Graph(id='gráfica-scatter2'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                             'width': '37%'}
+                                             'width': '40%'}
                                        ),
                                      
                         html.Div([
                             dcc.Graph(id='gráfica-bar2'),
                                      ], style={'display': 'inline-block', 'float': 'right',
-                                             'width': '13%'}
+                                             'width': '15%'}
                                       ),                                                                               
                                              
                                  ]), 
