@@ -1,5 +1,5 @@
 Atributo,Valor,Nombre
-Equipo,Astros de Houston,Gerrit Cole
+Equipo,Astros,Gerrit Cole
 G,2,Gerrit Cole
 GS,2,Gerrit Cole
 ERA,3.86,Gerrit Cole
@@ -11,7 +11,7 @@ H,11,Gerrit Cole
 BB,3,Gerrit Cole
 SO,15,Gerrit Cole
 WHIP,1,Gerrit Cole
-Equipo,Astros de Houston,Chris Devenski
+Equipo,Astros,Chris Devenski
 G,3,Chris Devenski
 GS,0,Chris Devenski
 ERA,9,Chris Devenski
@@ -23,7 +23,7 @@ H,3,Chris Devenski
 BB,1,Chris Devenski
 SO,3,Chris Devenski
 WHIP,1.333,Chris Devenski
-Equipo,Astros de Houston,Zack Greinke
+Equipo,Astros,Zack Greinke
 G,2,Zack Greinke
 GS,2,Zack Greinke
 ERA,2.45,Zack Greinke
@@ -35,7 +35,7 @@ H,9,Zack Greinke
 BB,5,Zack Greinke
 SO,9,Zack Greinke
 WHIP,1.273,Zack Greinke
-Equipo,Astros de Houston,Will Harris
+Equipo,Astros,Will Harris
 G,5,Will Harris
 GS,0,Will Harris
 ERA,4.5,Will Harris
@@ -47,7 +47,7 @@ H,5,Will Harris
 BB,0,Will Harris
 SO,4,Will Harris
 WHIP,1.25,Will Harris
-Equipo,Astros de Houston,Josh James
+Equipo,Astros,Josh James
 G,3,Josh James
 GS,0,Josh James
 ERA,10.8,Josh James
@@ -59,7 +59,7 @@ H,2,Josh James
 BB,3,Josh James
 SO,5,Josh James
 WHIP,3,Josh James
-Equipo,Astros de Houston,Roberto Osuna
+Equipo,Astros,Roberto Osuna
 G,2,Roberto Osuna
 GS,0,Roberto Osuna
 ERA,3.86,Roberto Osuna
@@ -71,7 +71,7 @@ H,3,Roberto Osuna
 BB,2,Roberto Osuna
 SO,1,Roberto Osuna
 WHIP,2.143,Roberto Osuna
-Equipo,Astros de Houston,Brad Peacock
+Equipo,Astros,Brad Peacock
 G,3,Brad Peacock
 GS,0,Brad Peacock
 ERA,3,Brad Peacock
@@ -83,7 +83,7 @@ H,1,Brad Peacock
 BB,3,Brad Peacock
 SO,4,Brad Peacock
 WHIP,1.333,Brad Peacock
-Equipo,Astros de Houston,Ryan Pressly
+Equipo,Astros,Ryan Pressly
 G,4,Ryan Pressly
 GS,0,Ryan Pressly
 ERA,9,Ryan Pressly
@@ -95,7 +95,7 @@ H,3,Ryan Pressly
 BB,2,Ryan Pressly
 SO,3,Ryan Pressly
 WHIP,1.667,Ryan Pressly
-Equipo,Astros de Houston,Hector Rondon
+Equipo,Astros,Hector Rondon
 G,2,Hector Rondon
 GS,0,Hector Rondon
 ERA,0,Hector Rondon
@@ -107,7 +107,7 @@ H,2,Hector Rondon
 BB,1,Hector Rondon
 SO,0,Hector Rondon
 WHIP,3,Hector Rondon
-Equipo,Astros de Houston,Joe Smith
+Equipo,Astros,Joe Smith
 G,4,Joe Smith
 GS,0,Joe Smith
 ERA,5.4,Joe Smith
@@ -119,7 +119,7 @@ H,4,Joe Smith
 BB,1,Joe Smith
 SO,4,Joe Smith
 WHIP,1.5,Joe Smith
-Equipo,Astros de Houston,Jose Urquidy
+Equipo,Astros,Jose Urquidy
 G,2,Jose Urquidy
 GS,1,Jose Urquidy
 ERA,0,Jose Urquidy
@@ -131,7 +131,7 @@ H,3,Jose Urquidy
 BB,0,Jose Urquidy
 SO,4,Jose Urquidy
 WHIP,0.529,Jose Urquidy
-Equipo,Astros de Houston,Justin Verlander
+Equipo,Astros,Justin Verlander
 G,2,Justin Verlander
 GS,2,Justin Verlander
 ERA,5.73,Justin Verlander
@@ -143,7 +143,7 @@ H,12,Justin Verlander
 BB,6,Justin Verlander
 SO,9,Justin Verlander
 WHIP,1.636,Justin Verlander
-Equipo,Astros de Houston,Astros de Houston
+Equipo,Astros,Astros de Houston
 G,34,Astros de Houston
 GS,7,Astros de Houston
 ERA,4.29,Astros de Houston
@@ -155,7 +155,7 @@ H,58,Astros de Houston
 BB,27,Astros de Houston
 SO,61,Astros de Houston
 WHIP,1.349,Astros de Houston
-Equipo,Astros de Houston,Patrick Corbin
+Equipo,Astros,Patrick Corbin
 G,3,Patrick Corbin
 GS,1,Patrick Corbin
 ERA,3.6,Patrick Corbin
@@ -167,7 +167,7 @@ H,10,Patrick Corbin
 BB,2,Patrick Corbin
 SO,10,Patrick Corbin
 WHIP,1.2,Patrick Corbin
-Equipo,Nacionales de Washington,Sean Doolittle
+Equipo,Nationals,Sean Doolittle
 G,3,Sean Doolittle
 GS,0,Sean Doolittle
 ERA,0,Sean Doolittle
@@ -179,7 +179,7 @@ H,2,Sean Doolittle
 BB,1,Sean Doolittle
 SO,2,Sean Doolittle
 WHIP,1,Sean Doolittle
-Equipo,Nacionales de Washington,Javy Guerra
+Equipo,Nationals,Javy Guerra
 G,2,Javy Guerra
 GS,0,Javy Guerra
 ERA,3,Javy Guerra
@@ -191,7 +191,7 @@ H,6,Javy Guerra
 BB,0,Javy Guerra
 SO,1,Javy Guerra
 WHIP,2,Javy Guerra
-Equipo,Nacionales de Washington,Daniel Hudson
+Equipo,Nationals,Daniel Hudson
 G,3,Daniel Hudson
 GS,0,Daniel Hudson
 ERA,9,Daniel Hudson
@@ -203,7 +203,7 @@ H,7,Daniel Hudson
 BB,1,Daniel Hudson
 SO,5,Daniel Hudson
 WHIP,2,Daniel Hudson
-Equipo,Nacionales de Washington,Tanner Rainey
+Equipo,Nationals,Tanner Rainey
 G,4,Tanner Rainey
 GS,0,Tanner Rainey
 ERA,10.13,Tanner Rainey
@@ -215,7 +215,7 @@ H,1,Tanner Rainey
 BB,4,Tanner Rainey
 SO,2,Tanner Rainey
 WHIP,1.875,Tanner Rainey
-Equipo,Nacionales de Washington,Fernando Rodney
+Equipo,Nationals,Fernando Rodney
 G,3,Fernando Rodney
 GS,0,Fernando Rodney
 ERA,9,Fernando Rodney
@@ -227,7 +227,7 @@ H,2,Fernando Rodney
 BB,6,Fernando Rodney
 SO,0,Fernando Rodney
 WHIP,4,Fernando Rodney
-Equipo,Nacionales de Washington,Joe Ross
+Equipo,Nationals,Joe Ross
 G,2,Joe Ross
 GS,1,Joe Ross
 ERA,5.14,Joe Ross
@@ -239,7 +239,7 @@ H,6,Joe Ross
 BB,2,Joe Ross
 SO,1,Joe Ross
 WHIP,1.143,Joe Ross
-Equipo,Nacionales de Washington,Anibal Sanchez
+Equipo,Nationals,Anibal Sanchez
 G,1,Anibal Sanchez
 GS,1,Anibal Sanchez
 ERA,6.75,Anibal Sanchez
@@ -251,7 +251,7 @@ H,10,Anibal Sanchez
 BB,1,Anibal Sanchez
 SO,4,Anibal Sanchez
 WHIP,2.063,Anibal Sanchez
-Equipo,Nacionales de Washington,Max Scherzer
+Equipo,Nationals,Max Scherzer
 G,2,Max Scherzer
 GS,2,Max Scherzer
 ERA,3.6,Max Scherzer
@@ -263,7 +263,7 @@ H,12,Max Scherzer
 BB,7,Max Scherzer
 SO,10,Max Scherzer
 WHIP,1.9,Max Scherzer
-Equipo,Nacionales de Washington,Stephen Strasburg
+Equipo,Nationals,Stephen Strasburg
 G,2,Stephen Strasburg
 GS,2,Stephen Strasburg
 ERA,2.51,Stephen Strasburg
@@ -275,7 +275,7 @@ H,12,Stephen Strasburg
 BB,3,Stephen Strasburg
 SO,14,Stephen Strasburg
 WHIP,1.047,Stephen Strasburg
-Equipo,Nacionales de Washington,Wander Suero
+Equipo,Nationals,Wander Suero
 G,3,Wander Suero
 GS,0,Wander Suero
 ERA,0,Wander Suero
@@ -287,15 +287,15 @@ H,0,Wander Suero
 BB,0,Wander Suero
 SO,2,Wander Suero
 WHIP,0,Wander Suero
-Equipo,Nacionales de Washington,Nacionales de Washington
-G,28,Nacionales de Washington
-GS,7,Nacionales de Washington
-ERA,4.29,Nacionales de Washington
-W,4,Nacionales de Washington
-L,3,Nacionales de Washington
-SV,1,Nacionales de Washington
-IP,63,Nacionales de Washington
-H,68,Nacionales de Washington
-BB,27,Nacionales de Washington
-SO,51,Nacionales de Washington
-WHIP,1.508,Nacionales de Washington
+Equipo,Nationals,Nationals
+G,28,Nationals
+GS,7,Nationals
+ERA,4.29,Nationals
+W,4,Nationals
+L,3,Nationals
+SV,1,Nationals
+IP,63,Nationals
+H,68,Nationals
+BB,27,Nationals
+SO,51,Nationals
+WHIP,1.508,Nationals

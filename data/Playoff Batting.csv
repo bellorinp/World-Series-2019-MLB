@@ -1,5 +1,5 @@
 Atributo,Valor,Nombre
-Equipo,Astros de Houston,Jose Altuve
+Equipo,Astros,Jose Altuve
 G,7,Jose Altuve
 AB,33,Jose Altuve
 R,4,Jose Altuve
@@ -10,7 +10,7 @@ HR,0,Jose Altuve
 RBI,1,Jose Altuve
 BA,0.303,Jose Altuve
 OPS,0.688,Jose Altuve
-Equipo,Astros de Houston,Yordan Álvarez
+Equipo,Astros,Yordan Álvarez
 G,7,Yordan Álvarez
 AB,17,Yordan Álvarez
 R,2,Yordan Álvarez
@@ -21,7 +21,7 @@ HR,1,Yordan Álvarez
 RBI,2,Yordan Álvarez
 BA,0.412,Yordan Álvarez
 OPS,1.112,Yordan Álvarez
-Equipo,Astros de Houston,Michael Brantley
+Equipo,Astros,Michael Brantley
 G,7,Michael Brantley
 AB,28,Michael Brantley
 R,3,Michael Brantley
@@ -32,7 +32,7 @@ HR,0,Michael Brantley
 RBI,2,Michael Brantley
 BA,0.321,Michael Brantley
 OPS,0.728,Michael Brantley
-Equipo,Astros de Houston,Alex Bregman
+Equipo,Astros,Alex Bregman
 G,7,Alex Bregman
 AB,29,Alex Bregman
 R,3,Alex Bregman
@@ -43,7 +43,7 @@ HR,3,Alex Bregman
 RBI,8,Alex Bregman
 BA,0.207,Alex Bregman
 OPS,0.775,Alex Bregman
-Equipo,Astros de Houston,Robinson Chirinos
+Equipo,Astros,Robinson Chirinos
 G,6,Robinson Chirinos
 AB,19,Robinson Chirinos
 R,2,Robinson Chirinos
@@ -54,7 +54,7 @@ HR,2,Robinson Chirinos
 RBI,3,Robinson Chirinos
 BA,0.211,Robinson Chirinos
 OPS,0.789,Robinson Chirinos
-Equipo,Astros de Houston,Gerrit Cole
+Equipo,Astros,Gerrit Cole
 G,2,Gerrit Cole
 AB,3,Gerrit Cole
 R,0,Gerrit Cole
@@ -65,7 +65,7 @@ HR,0,Gerrit Cole
 RBI,0,Gerrit Cole
 BA,0,Gerrit Cole
 OPS,0,Gerrit Cole
-Equipo,Astros de Houston,Carlos Correa
+Equipo,Astros,Carlos Correa
 G,7,Carlos Correa
 AB,27,Carlos Correa
 R,3,Carlos Correa
@@ -76,7 +76,7 @@ HR,1,Carlos Correa
 RBI,3,Carlos Correa
 BA,0.222,Carlos Correa
 OPS,0.707,Carlos Correa
-Equipo,Astros de Houston,Chris Devenski
+Equipo,Astros,Chris Devenski
 G,3,Chris Devenski
 AB,0,Chris Devenski
 R,0,Chris Devenski
@@ -87,7 +87,7 @@ HR,0,Chris Devenski
 RBI,0,Chris Devenski
 BA,0,Chris Devenski
 OPS,0,Chris Devenski
-Equipo,Astros de Houston,Aledmys Díaz
+Equipo,Astros,Aledmys Díaz
 G,1,Aledmys Díaz
 AB,2,Aledmys Díaz
 R,0,Aledmys Díaz
@@ -98,7 +98,7 @@ HR,0,Aledmys Díaz
 RBI,0,Aledmys Díaz
 BA,0,Aledmys Díaz
 OPS,0,Aledmys Díaz
-Equipo,Astros de Houston,Zack Greinke
+Equipo,Astros,Zack Greinke
 G,2,Zack Greinke
 AB,1,Zack Greinke
 R,0,Zack Greinke
@@ -109,7 +109,7 @@ HR,0,Zack Greinke
 RBI,0,Zack Greinke
 BA,0,Zack Greinke
 OPS,0,Zack Greinke
-Equipo,Astros de Houston,Yuli Gurriel
+Equipo,Astros,Yuli Gurriel
 G,7,Yuli Gurriel
 AB,29,Yuli Gurriel
 R,3,Yuli Gurriel
@@ -120,7 +120,7 @@ HR,1,Yuli Gurriel
 RBI,5,Yuli Gurriel
 BA,0.31,Yuli Gurriel
 OPS,0.838,Yuli Gurriel
-Equipo,Astros de Houston,Will Harris
+Equipo,Astros,Will Harris
 G,5,Will Harris
 AB,0,Will Harris
 R,0,Will Harris
@@ -131,7 +131,7 @@ HR,0,Will Harris
 RBI,0,Will Harris
 BA,0,Will Harris
 OPS,0,Will Harris
-Equipo,Astros de Houston,Josh James
+Equipo,Astros,Josh James
 G,3,Josh James
 AB,0,Josh James
 R,0,Josh James
@@ -142,7 +142,7 @@ HR,0,Josh James
 RBI,0,Josh James
 BA,0,Josh James
 OPS,0,Josh James
-Equipo,Astros de Houston,Martin Maldonado
+Equipo,Astros,Martin Maldonado
 G,3,Martin Maldonado
 AB,7,Martin Maldonado
 R,2,Martin Maldonado
@@ -153,7 +153,7 @@ HR,1,Martin Maldonado
 RBI,1,Martin Maldonado
 BA,0.286,Martin Maldonado
 OPS,1.089,Martin Maldonado
-Equipo,Astros de Houston,Jake Marisnick
+Equipo,Astros,Jake Marisnick
 G,5,Jake Marisnick
 AB,8,Jake Marisnick
 R,0,Jake Marisnick
@@ -164,7 +164,7 @@ HR,0,Jake Marisnick
 RBI,0,Jake Marisnick
 BA,0.375,Jake Marisnick
 OPS,0.819,Jake Marisnick
-Equipo,Astros de Houston,Roberto Osuna
+Equipo,Astros,Roberto Osuna
 G,2,Roberto Osuna
 AB,0,Roberto Osuna
 R,0,Roberto Osuna
@@ -175,7 +175,7 @@ HR,0,Roberto Osuna
 RBI,0,Roberto Osuna
 BA,0,Roberto Osuna
 OPS,0,Roberto Osuna
-Equipo,Astros de Houston,Brad Peacock
+Equipo,Astros,Brad Peacock
 G,3,Brad Peacock
 AB,0,Brad Peacock
 R,0,Brad Peacock
@@ -186,7 +186,7 @@ HR,0,Brad Peacock
 RBI,0,Brad Peacock
 BA,0,Brad Peacock
 OPS,0,Brad Peacock
-Equipo,Astros de Houston,Ryan Pressly
+Equipo,Astros,Ryan Pressly
 G,4,Ryan Pressly
 AB,0,Ryan Pressly
 R,0,Ryan Pressly
@@ -197,7 +197,7 @@ HR,0,Ryan Pressly
 RBI,0,Ryan Pressly
 BA,0,Ryan Pressly
 OPS,0,Ryan Pressly
-Equipo,Astros de Houston,Josh Reddick
+Equipo,Astros,Josh Reddick
 G,5,Josh Reddick
 AB,14,Josh Reddick
 R,0,Josh Reddick
@@ -208,7 +208,7 @@ HR,0,Josh Reddick
 RBI,1,Josh Reddick
 BA,0.214,Josh Reddick
 OPS,0.481,Josh Reddick
-Equipo,Astros de Houston,Hector Rondon
+Equipo,Astros,Hector Rondon
 G,2,Hector Rondon
 AB,0,Hector Rondon
 R,0,Hector Rondon
@@ -219,7 +219,7 @@ HR,0,Hector Rondon
 RBI,0,Hector Rondon
 BA,0,Hector Rondon
 OPS,0,Hector Rondon
-Equipo,Astros de Houston,Joe Smith
+Equipo,Astros,Joe Smith
 G,4,Joe Smith
 AB,0,Joe Smith
 R,0,Joe Smith
@@ -230,7 +230,7 @@ HR,0,Joe Smith
 RBI,0,Joe Smith
 BA,0,Joe Smith
 OPS,0,Joe Smith
-Equipo,Astros de Houston,George Springer
+Equipo,Astros,George Springer
 G,7,George Springer
 AB,27,George Springer
 R,6,George Springer
@@ -241,7 +241,7 @@ HR,2,George Springer
 RBI,4,George Springer
 BA,0.296,George Springer
 OPS,1.108,George Springer
-Equipo,Astros de Houston,Kyle Tucker
+Equipo,Astros,Kyle Tucker
 G,5,Kyle Tucker
 AB,4,Kyle Tucker
 R,2,Kyle Tucker
@@ -252,7 +252,7 @@ HR,0,Kyle Tucker
 RBI,0,Kyle Tucker
 BA,0.25,Kyle Tucker
 OPS,0.75,Kyle Tucker
-Equipo,Astros de Houston,Jose Urquidy
+Equipo,Astros,Jose Urquidy
 G,2,Jose Urquidy
 AB,2,Jose Urquidy
 R,0,Jose Urquidy
@@ -263,7 +263,7 @@ HR,0,Jose Urquidy
 RBI,0,Jose Urquidy
 BA,0,Jose Urquidy
 OPS,0,Jose Urquidy
-Equipo,Astros de Houston,Justin Verlander
+Equipo,Astros,Justin Verlander
 G,2,Justin Verlander
 AB,0,Justin Verlander
 R,0,Justin Verlander
@@ -274,7 +274,7 @@ HR,0,Justin Verlander
 RBI,0,Justin Verlander
 BA,0,Justin Verlander
 OPS,0,Justin Verlander
-Equipo,Astros de Houston,Astros de Houston
+Equipo,Astros,Astros de Houston
 G,108,Astros de Houston
 AB,250,Astros de Houston
 R,30,Astros de Houston
@@ -285,7 +285,7 @@ HR,11,Astros de Houston
 RBI,30,Astros de Houston
 BA,0.272,Astros de Houston
 OPS,0.794,Astros de Houston
-Equipo,Nacionales de Washington,Matt Adams
+Equipo,Nationals,Matt Adams
 G,1,Matt Adams
 AB,0,Matt Adams
 R,0,Matt Adams
@@ -296,7 +296,7 @@ HR,0,Matt Adams
 RBI,0,Matt Adams
 BA,0,Matt Adams
 OPS,0,Matt Adams
-Equipo,Nacionales de Washington,Asdrubal Cabrera
+Equipo,Nationals,Asdrubal Cabrera
 G,7,Asdrubal Cabrera
 AB,21,Asdrubal Cabrera
 R,1,Asdrubal Cabrera
@@ -307,7 +307,7 @@ HR,0,Asdrubal Cabrera
 RBI,3,Asdrubal Cabrera
 BA,0.286,Asdrubal Cabrera
 OPS,0.652,Asdrubal Cabrera
-Equipo,Nacionales de Washington,Patrick Corbin
+Equipo,Nationals,Patrick Corbin
 G,3,Patrick Corbin
 AB,1,Patrick Corbin
 R,0,Patrick Corbin
@@ -318,7 +318,7 @@ HR,0,Patrick Corbin
 RBI,0,Patrick Corbin
 BA,0,Patrick Corbin
 OPS,0,Patrick Corbin
-Equipo,Nacionales de Washington,Sean Doolittle
+Equipo,Nationals,Sean Doolittle
 G,3,Sean Doolittle
 AB,0,Sean Doolittle
 R,0,Sean Doolittle
@@ -329,7 +329,7 @@ HR,0,Sean Doolittle
 RBI,0,Sean Doolittle
 BA,0,Sean Doolittle
 OPS,0,Sean Doolittle
-Equipo,Nacionales de Washington,Brian Dozier
+Equipo,Nationals,Brian Dozier
 G,1,Brian Dozier
 AB,0,Brian Dozier
 R,0,Brian Dozier
@@ -340,7 +340,7 @@ HR,0,Brian Dozier
 RBI,0,Brian Dozier
 BA,0,Brian Dozier
 OPS,0,Brian Dozier
-Equipo,Nacionales de Washington,Adam Eaton
+Equipo,Nationals,Adam Eaton
 G,7,Adam Eaton
 AB,25,Adam Eaton
 R,5,Adam Eaton
@@ -351,7 +351,7 @@ HR,2,Adam Eaton
 RBI,6,Adam Eaton
 BA,0.32,Adam Eaton
 OPS,0.993,Adam Eaton
-Equipo,Nacionales de Washington,Yan Gomes
+Equipo,Nationals,Yan Gomes
 G,5,Yan Gomes
 AB,16,Yan Gomes
 R,2,Yan Gomes
@@ -362,7 +362,7 @@ HR,0,Yan Gomes
 RBI,0,Yan Gomes
 BA,0.188,Yan Gomes
 OPS,0.438,Yan Gomes
-Equipo,Nacionales de Washington,Javy Guerra
+Equipo,Nationals,Javy Guerra
 G,2,Javy Guerra
 AB,0,Javy Guerra
 R,0,Javy Guerra
@@ -373,7 +373,7 @@ HR,0,Javy Guerra
 RBI,0,Javy Guerra
 BA,0,Javy Guerra
 OPS,0,Javy Guerra
-Equipo,Nacionales de Washington,Daniel Hudson
+Equipo,Nationals,Daniel Hudson
 G,3,Daniel Hudson
 AB,0,Daniel Hudson
 R,0,Daniel Hudson
@@ -384,7 +384,7 @@ HR,0,Daniel Hudson
 RBI,0,Daniel Hudson
 BA,0,Daniel Hudson
 OPS,0,Daniel Hudson
-Equipo,Nacionales de Washington,Howie Kendrick
+Equipo,Nationals,Howie Kendrick
 G,7,Howie Kendrick
 AB,25,Howie Kendrick
 R,2,Howie Kendrick
@@ -395,7 +395,7 @@ HR,1,Howie Kendrick
 RBI,3,Howie Kendrick
 BA,0.28,Howie Kendrick
 OPS,0.708,Howie Kendrick
-Equipo,Nacionales de Washington,Gerardo Parra
+Equipo,Nationals,Gerardo Parra
 G,4,Gerardo Parra
 AB,3,Gerardo Parra
 R,1,Gerardo Parra
@@ -406,7 +406,7 @@ HR,0,Gerardo Parra
 RBI,0,Gerardo Parra
 BA,0,Gerardo Parra
 OPS,0.25,Gerardo Parra
-Equipo,Nacionales de Washington,Tanner Rainey
+Equipo,Nationals,Tanner Rainey
 G,4,Tanner Rainey
 AB,0,Tanner Rainey
 R,0,Tanner Rainey
@@ -417,7 +417,7 @@ HR,0,Tanner Rainey
 RBI,0,Tanner Rainey
 BA,0,Tanner Rainey
 OPS,0,Tanner Rainey
-Equipo,Nacionales de Washington,Anthony Rendon
+Equipo,Nationals,Anthony Rendon
 G,7,Anthony Rendon
 AB,29,Anthony Rendon
 R,3,Anthony Rendon
@@ -428,7 +428,7 @@ HR,2,Anthony Rendon
 RBI,8,Anthony Rendon
 BA,0.276,Anthony Rendon
 OPS,0.93,Anthony Rendon
-Equipo,Nacionales de Washington,Victor Robles
+Equipo,Nationals,Victor Robles
 G,7,Victor Robles
 AB,25,Victor Robles
 R,4,Victor Robles
@@ -439,7 +439,7 @@ HR,0,Victor Robles
 RBI,1,Victor Robles
 BA,0.16,Victor Robles
 OPS,0.462,Victor Robles
-Equipo,Nacionales de Washington,Fernando Rodney
+Equipo,Nationals,Fernando Rodney
 G,3,Fernando Rodney
 AB,0,Fernando Rodney
 R,0,Fernando Rodney
@@ -450,7 +450,7 @@ HR,0,Fernando Rodney
 RBI,0,Fernando Rodney
 BA,0,Fernando Rodney
 OPS,0,Fernando Rodney
-Equipo,Nacionales de Washington,Joe Ross
+Equipo,Nationals,Joe Ross
 G,2,Joe Ross
 AB,1,Joe Ross
 R,0,Joe Ross
@@ -461,7 +461,7 @@ HR,0,Joe Ross
 RBI,0,Joe Ross
 BA,0,Joe Ross
 OPS,0,Joe Ross
-Equipo,Nacionales de Washington,Anibal Sanchez
+Equipo,Nationals,Anibal Sanchez
 G,1,Anibal Sanchez
 AB,2,Anibal Sanchez
 R,0,Anibal Sanchez
@@ -472,7 +472,7 @@ HR,0,Anibal Sanchez
 RBI,0,Anibal Sanchez
 BA,0,Anibal Sanchez
 OPS,0,Anibal Sanchez
-Equipo,Nacionales de Washington,Max Scherzer
+Equipo,Nationals,Max Scherzer
 G,2,Max Scherzer
 AB,0,Max Scherzer
 R,0,Max Scherzer
@@ -483,7 +483,7 @@ HR,0,Max Scherzer
 RBI,0,Max Scherzer
 BA,0,Max Scherzer
 OPS,0,Max Scherzer
-Equipo,Nacionales de Washington,Juan Soto
+Equipo,Nationals,Juan Soto
 G,7,Juan Soto
 AB,27,Juan Soto
 R,6,Juan Soto
@@ -494,7 +494,7 @@ HR,3,Juan Soto
 RBI,7,Juan Soto
 BA,0.333,Juan Soto
 OPS,1.178,Juan Soto
-Equipo,Nacionales de Washington,Stephen Strasburg
+Equipo,Nationals,Stephen Strasburg
 G,2,Stephen Strasburg
 AB,0,Stephen Strasburg
 R,0,Stephen Strasburg
@@ -505,7 +505,7 @@ HR,0,Stephen Strasburg
 RBI,0,Stephen Strasburg
 BA,0,Stephen Strasburg
 OPS,0,Stephen Strasburg
-Equipo,Nacionales de Washington,Wander Suero
+Equipo,Nationals,Wander Suero
 G,3,Wander Suero
 AB,0,Wander Suero
 R,0,Wander Suero
@@ -516,7 +516,7 @@ HR,0,Wander Suero
 RBI,0,Wander Suero
 BA,0,Wander Suero
 OPS,0,Wander Suero
-Equipo,Nacionales de Washington,Kurt Suzuki
+Equipo,Nationals,Kurt Suzuki
 G,3,Kurt Suzuki
 AB,10,Kurt Suzuki
 R,2,Kurt Suzuki
@@ -527,7 +527,7 @@ HR,1,Kurt Suzuki
 RBI,1,Kurt Suzuki
 BA,0.2,Kurt Suzuki
 OPS,0.773,Kurt Suzuki
-Equipo,Nacionales de Washington,Michael A. Taylor
+Equipo,Nationals,Michael A. Taylor
 G,1,Michael A. Taylor
 AB,1,Michael A. Taylor
 R,1,Michael A. Taylor
@@ -538,7 +538,7 @@ HR,1,Michael A. Taylor
 RBI,1,Michael A. Taylor
 BA,1,Michael A. Taylor
 OPS,5,Michael A. Taylor
-Equipo,Nacionales de Washington,Trea Turner
+Equipo,Nationals,Trea Turner
 G,7,Trea Turner
 AB,31,Trea Turner
 R,4,Trea Turner
@@ -549,7 +549,7 @@ HR,0,Trea Turner
 RBI,0,Trea Turner
 BA,0.161,Trea Turner
 OPS,0.429,Trea Turner
-Equipo,Nacionales de Washington,Ryan Zimmerman
+Equipo,Nationals,Ryan Zimmerman
 G,7,Ryan Zimmerman
 AB,24,Ryan Zimmerman
 R,2,Ryan Zimmerman
@@ -560,7 +560,7 @@ HR,1,Ryan Zimmerman
 RBI,2,Ryan Zimmerman
 BA,0.208,Ryan Zimmerman
 OPS,0.655,Ryan Zimmerman
-Equipo,Nacionales de Washington,Nacionales de Washington
+Equipo,Nationals,Nacionales de Washington
 G,99,Nacionales de Washington
 AB,241,Nacionales de Washington
 R,33,Nacionales de Washington
